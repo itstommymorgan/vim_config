@@ -1,0 +1,12 @@
+#!/bin/bash
+SCRIPT_DIR=`which $0`
+REPO_DIR=${SCRIPT_DIR%/*/*}
+
+# change to the user's home directory
+cd $HOME
+
+# create symlinks to both .vimrc and the .vim directory
+ln -s $REPO_DIR/.vim ./.vim
+ln -s $REPO_DIR/.vimrc ./.vimrc
+
+exit

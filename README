@@ -1,0 +1,13 @@
+Welcome to my vim config!
+
+Feel free to poke around.
+
+Notable notes:
+
+-- If you intend on using this vim config, then you should check out the git repository and look at the binaries in the 'bin' folder. vimconf_install will create symlinks for you in your $HOME directory, and vimconf_update is a convenience guy that will automatically update any git submodules (located in the '.vim/external' folder, and will also fire the GLVS script to update any items that are located on vim.org.
+
+-- You will need vim compiled with ruby support in order to gain the full functionality of this config (at the moment, the only thing you'd be missing would be the fuzzyfinder_textmate functionality... but still, that's really nice).
+
+-- Check .vim/custom/keybinds.vim for the current keybinding setup. Note that I've got ',' defined as my mapleader, and I'm trying to use it extensively... e.g., I prefer ',t' to '<C>t'.
+
+-- I would love to see suggestions for modifications/additions to this config. I'm an admitted vimnewb and would appreciate the help :)
