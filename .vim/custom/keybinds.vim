@@ -17,7 +17,7 @@ nnoremap ` '
 
 " save/close current buffer
 map <leader>w :w<CR>
-map <leader>q :q<CR>
+map <leader>c :bdelete<CR>
 
 " next/previous buffer
 map <leader>n :bnext<CR>
@@ -30,10 +30,19 @@ map <leader>b :buffers<CR>
 " Window manipulation
 """"""""""""""""""""""""""""""""""""""""
 
+" close current window
+map <leader>q :q!<CR>
+
 map <leader>h <C-W>h
 map <leader>j <C-W>j
 map <leader>k <C-W>k
 map <leader>l <C-W>l
+
+""""""""""""""""""""""""""""""""""""""""
+" ack.vim
+""""""""""""""""""""""""""""""""""""""""
+
+map <leader>f :Ack 
 
 """"""""""""""""""""""""""""""""""""""""
 " Fuzzy finder
@@ -52,3 +61,9 @@ map <leader>d :execute 'NERDTreeToggle ' . getcwd()<CR>
 """"""""""""""""""""""""""""""""""""""""
 
 map <leader>s :call ToggleScratch()<CR>
+
+""""""""""""""""""""""""""""""""""""""""
+" Taglist
+""""""""""""""""""""""""""""""""""""""""
+
+map <leader>g :TlistToggle<CR>
