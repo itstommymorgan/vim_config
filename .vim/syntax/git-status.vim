@@ -1,0 +1,1 @@
+../external/motemen-git-vim/syntax/git-status.vim

@@ -1,0 +1,1 @@
+../external/motemen-git-vim/syntax/git-log.vim
