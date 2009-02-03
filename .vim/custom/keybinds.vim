@@ -67,3 +67,15 @@ map <leader>s :call ToggleScratch()<CR>
 """"""""""""""""""""""""""""""""""""""""
 
 map <leader>g :TlistToggle<CR>
+
+""""""""""""""""""""""""""""""""""""""""
+" git-vim
+"
+" I find these keybindings more useful
+" than the default plugin values.
+" <leader>ga == add the current file;
+" <leader>gA == add the current directory.
+""""""""""""""""""""""""""""""""""""""""
+
+nnoremap <leader>ga :GitAdd %<CR>
+nnoremap <leader>gA :GitAdd .<CR>
