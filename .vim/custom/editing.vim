@@ -20,10 +20,10 @@ set fo=crq	" default format options
 " q allows formatting of comments
 set ai " autoindent
 set si " smartindent
-set tabstop=2	" Tab has 2_spaces equivalent width
+set tabstop=3	" Tab has 2_spaces equivalent width
 set isk+=_,$,@,%,#,- " prevent these chars from being recognized as word separators
-set softtabstop=2 " match tabstop
-set shiftwidth=2 " Indentation width when using >> and << re-indentation
+set softtabstop=3 " match tabstop
+set shiftwidth=3 " Indentation width when using >> and << re-indentation
 set expandtab	" expand tabs into spaces
 
 """"""""""""""""""""""""""""""""""""""""

@@ -8,7 +8,7 @@
 " Color scheme
 """"""""""""""""""""""""""""""""""""""""
 set background=dark
-colorscheme desert
+colorscheme vividchalk
 syntax on
 
 """"""""""""""""""""""""""""""""""""""""
