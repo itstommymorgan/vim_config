@@ -1,3 +1,0 @@
-getscript.vba: call delete('/home/tommy/.vim/plugin/getscriptPlugin.vim')|call delete('/home/tommy/.vim/autoload/getscript.vim')|call delete('/home/tommy/.vim/GetLatest/GetLatestVimScripts.dist')|call delete('/home/tommy/.vim/doc/pi_getscript.txt')
-tComment.vba: call delete('/home/tommy/.vim/doc/tComment.txt')|call delete('/home/tommy/.vim/plugin/tComment.vim')|call delete('/home/tommy/.vim/autoload/tcomment.vim')
-ZoomWin.vba: call delete('/home/tommy/.vim/plugin/ZoomWinPlugin.vim')|call delete('/home/tommy/.vim/doc/ZoomWin.txt')|call delete('/home/tommy/.vim/autoload/ZoomWin.vim')

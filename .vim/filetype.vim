@@ -1,1 +1,0 @@
-runtime! ftdetect/*.vim

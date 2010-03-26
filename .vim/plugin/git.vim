@@ -1,1 +1,0 @@
-../external/motemen-git-vim/plugin/git.vim

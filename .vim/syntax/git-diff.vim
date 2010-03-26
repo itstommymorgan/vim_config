@@ -1,1 +1,0 @@
-../external/motemen-git-vim/syntax/git-diff.vim
