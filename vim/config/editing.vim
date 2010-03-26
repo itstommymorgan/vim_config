@@ -3,8 +3,14 @@
 "" settings, such as indent size, etc.
 """"""""""""""""""""""""""""""""""""""""
 
+" automatically indent lines and try to do it intelligently
 set autoindent
+set smartindent
+
+" backspace behaves 'normally'
 set backspace=indent,eol,start
+
+set whichwrap+=<,>,h,l   " cursor keys also wrap
 
 " spaces instead of tabs
 " prefer 3 spaces
