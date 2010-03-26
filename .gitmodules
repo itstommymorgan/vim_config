@@ -1,9 +1,0 @@
-[submodule ".vim/external/jamis-fuzzy_file_finder"]
-	path = .vim/external/jamis-fuzzy_file_finder
-	url = git://github.com/jamis/fuzzy_file_finder.git
-[submodule ".vim/external/jamis-fuzzyfinder_textmate"]
-	path = .vim/external/jamis-fuzzyfinder_textmate
-	url = git://github.com/jamis/fuzzyfinder_textmate.git
-[submodule ".vim/external/motemen-git-vim"]
-	path = .vim/external/motemen-git-vim
-	url = git://github.com/motemen/git-vim.git
