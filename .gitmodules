@@ -7,3 +7,6 @@
 [submodule "vim/external/nerdcommenter"]
 	path = vim/external/nerdcommenter
 	url = git://github.com/scrooloose/nerdcommenter.git
+[submodule "vim/external/syntastic"]
+	path = vim/external/syntastic
+	url = git://github.com/scrooloose/syntastic.git
