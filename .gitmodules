@@ -1,3 +1,6 @@
 [submodule "vim/external/nerdtree"]
 	path = vim/external/nerdtree
 	url = git://github.com/scrooloose/nerdtree.git
+[submodule "vim/external/vim-fugitive"]
+	path = vim/external/vim-fugitive
+	url = git://github.com/tpope/vim-fugitive.git
