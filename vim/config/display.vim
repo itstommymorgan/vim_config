@@ -1,7 +1,10 @@
 """""""""""""""""""""""""""""""""""""""""""""""""""
 "" loads display-related option (colorscheme, etc.)
 """""""""""""""""""""""""""""""""""""""""""""""""""
-colorscheme murphy
+
+" use the 'high-contrast' version of zenburn
+let g:zenburn_high_Contrast=1
+colorscheme zenburn
 
 set laststatus=2   " always display a status line
 set number         " show line numbers
