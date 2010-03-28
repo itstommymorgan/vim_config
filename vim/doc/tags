@@ -150,6 +150,8 @@ bufexplorer-usage	bufexplorer.txt	/*bufexplorer-usage*
 bufexplorer-windowlayout	bufexplorer.txt	/*bufexplorer-windowlayout*
 bufexplorer.txt	bufexplorer.txt	/*bufexplorer.txt*
 buffer-explorer	bufexplorer.txt	/*buffer-explorer*
+cs	surround.txt	/*cs*
+ds	surround.txt	/*ds*
 fugitive	fugitive.txt	/*fugitive*
 fugitive#statusline()	fugitive.txt	/*fugitive#statusline()*
 fugitive-:Gblame	fugitive.txt	/*fugitive-:Gblame*
@@ -198,6 +200,8 @@ g:bufExplorerSortBy	bufexplorer.txt	/*g:bufExplorerSortBy*
 g:bufExplorerSplitBelow	bufexplorer.txt	/*g:bufExplorerSplitBelow*
 g:bufExplorerSplitOutPathName	bufexplorer.txt	/*g:bufExplorerSplitOutPathName*
 g:bufExplorerSplitRight	bufexplorer.txt	/*g:bufExplorerSplitRight*
+i_CTRL-G_S	surround.txt	/*i_CTRL-G_S*
+i_CTRL-G_s	surround.txt	/*i_CTRL-G_s*
 space-configuration	space.txt	/*space-configuration*
 space-hooks	space.txt	/*space-hooks*
 space-intro	space.txt	/*space-intro*
@@ -207,6 +211,14 @@ space-toc	space.txt	/*space-toc*
 space-usage	space.txt	/*space-usage*
 space.txt	space.txt	/*space.txt*
 space.vim	space.txt	/*space.vim*
+surround	surround.txt	/*surround*
+surround-author	surround.txt	/*surround-author*
+surround-customizing	surround.txt	/*surround-customizing*
+surround-issues	surround.txt	/*surround-issues*
+surround-mappings	surround.txt	/*surround-mappings*
+surround-replacements	surround.txt	/*surround-replacements*
+surround-targets	surround.txt	/*surround-targets*
+surround.txt	surround.txt	/*surround.txt*
 syntastic	syntastic.txt	/*syntastic*
 syntastic-about	syntastic.txt	/*syntastic-about*
 syntastic-changelog	syntastic.txt	/*syntastic-changelog*
@@ -222,3 +234,10 @@ syntastic-options	syntastic.txt	/*syntastic-options*
 syntastic-statusline-flag	syntastic.txt	/*syntastic-statusline-flag*
 syntastic-syntax-checkers	syntastic.txt	/*syntastic-syntax-checkers*
 syntastic.txt	syntastic.txt	/*syntastic.txt*
+vS	surround.txt	/*vS*
+vgS	surround.txt	/*vgS*
+vs	surround.txt	/*vs*
+yS	surround.txt	/*yS*
+ySS	surround.txt	/*ySS*
+ys	surround.txt	/*ys*
+yss	surround.txt	/*yss*

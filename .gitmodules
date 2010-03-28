@@ -19,3 +19,6 @@
 [submodule "vim/external/vim-haml"]
 	path = vim/external/vim-haml
 	url = git://github.com/tpope/vim-haml.git
+[submodule "vim/external/vim-surround"]
+	path = vim/external/vim-surround
+	url = git://github.com/tpope/vim-surround.git
