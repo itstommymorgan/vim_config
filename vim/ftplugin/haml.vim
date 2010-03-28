@@ -1,0 +1,1 @@
+../external/vim-haml/ftplugin/haml.vim

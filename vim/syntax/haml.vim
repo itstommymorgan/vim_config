@@ -1,0 +1,1 @@
+../external/vim-haml/syntax/haml.vim
