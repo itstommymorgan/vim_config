@@ -13,3 +13,6 @@
 [submodule "vim/external/endwise"]
 	path = vim/external/endwise
 	url = git://github.com/tpope/vim-endwise.git
+[submodule "vim/external/vim-space"]
+	path = vim/external/vim-space
+	url = git://github.com/spiiph/vim-space.git

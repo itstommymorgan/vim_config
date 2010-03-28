@@ -45,6 +45,7 @@
 :NERDTreeToggle	NERD_tree.txt	/*:NERDTreeToggle*
 :SyntasticDisable	syntastic.txt	/*:SyntasticDisable*
 :SyntasticEnable	syntastic.txt	/*:SyntasticEnable*
+<Space>	space.txt	/*<Space>*
 NERDComAbout	NERD_commenter.txt	/*NERDComAbout*
 NERDComAlignedComment	NERD_commenter.txt	/*NERDComAlignedComment*
 NERDComAltDelim	NERD_commenter.txt	/*NERDComAltDelim*
@@ -197,6 +198,15 @@ g:bufExplorerSortBy	bufexplorer.txt	/*g:bufExplorerSortBy*
 g:bufExplorerSplitBelow	bufexplorer.txt	/*g:bufExplorerSplitBelow*
 g:bufExplorerSplitOutPathName	bufexplorer.txt	/*g:bufExplorerSplitOutPathName*
 g:bufExplorerSplitRight	bufexplorer.txt	/*g:bufExplorerSplitRight*
+space-configuration	space.txt	/*space-configuration*
+space-hooks	space.txt	/*space-hooks*
+space-intro	space.txt	/*space-intro*
+space-license	space.txt	/*space-license*
+space-statusline	space.txt	/*space-statusline*
+space-toc	space.txt	/*space-toc*
+space-usage	space.txt	/*space-usage*
+space.txt	space.txt	/*space.txt*
+space.vim	space.txt	/*space.vim*
 syntastic	syntastic.txt	/*syntastic*
 syntastic-about	syntastic.txt	/*syntastic-about*
 syntastic-changelog	syntastic.txt	/*syntastic-changelog*
