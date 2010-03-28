@@ -4,7 +4,7 @@
 
 " use signs to indicate lines with errors
 " only if signs are available
-if has(signs)
+if has('signs')
    let g:syntastic_enable_signs = 1
 endif
 
