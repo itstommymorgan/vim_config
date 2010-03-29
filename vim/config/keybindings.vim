@@ -4,8 +4,6 @@
 "" settings, just 'global' ones.
 """"""""""""""""""""""""""""""""""""""""
 
-let mapleader = ";"    " use ; for <Leader>
-
 " ;w saves a buffer
 map <Leader>w :w<CR> 
 
