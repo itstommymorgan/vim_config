@@ -34,3 +34,6 @@
 [submodule "vim/external/vimshell"]
 	path = vim/external/vimshell
 	url = git://github.com/Shougo/vimshell.git
+[submodule "vim/external/vim-rails"]
+	path = vim/external/vim-rails
+	url = git://github.com/tpope/vim-rails.git

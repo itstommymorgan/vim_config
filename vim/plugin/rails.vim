@@ -1,0 +1,1 @@
+../external/vim-rails/plugin/rails.vim
