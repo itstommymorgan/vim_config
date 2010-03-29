@@ -22,3 +22,6 @@
 [submodule "vim/external/vim-surround"]
 	path = vim/external/vim-surround
 	url = git://github.com/tpope/vim-surround.git
+[submodule "vim/external/vim-bufonly"]
+	path = vim/external/vim-bufonly
+	url = git://github.com/duff/vim-bufonly.git
