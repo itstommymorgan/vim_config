@@ -1,0 +1,1 @@
+../external/vimshell/syntax/int-termtter.vim

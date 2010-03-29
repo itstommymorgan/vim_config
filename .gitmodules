@@ -31,3 +31,6 @@
 [submodule "vim/external/fuzzy_file_finder"]
 	path = vim/external/fuzzy_file_finder
 	url = git://github.com/jamis/fuzzy_file_finder.git
+[submodule "vim/external/vimshell"]
+	path = vim/external/vimshell
+	url = git://github.com/Shougo/vimshell.git
