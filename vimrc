@@ -35,4 +35,4 @@ set shortmess=filmnrxtTI
 
 
 " load everything else in its own config file
-runtime! config/*
+runtime! config/**/*
