@@ -45,24 +45,24 @@ following:
 
 Currently, this vim configuration ships with the following plugins:
 
-* BufExplorer(http://www.vim.org/scripts/script.php?script_id=42 "BufExplorer at
+* [BufExplorer](http://www.vim.org/scripts/script.php?script_id=42 "BufExplorer at
   vim.org")
-* BufOnly(http://github.com/duff/vim-bufonly "BufOnly at github")
-* Endwise(http://github.com/tpope/vim-endwise "vim-endwise at github")
-* Fugitive(http://github.com/tpope/vim-fugitive "vim-fugitive at github")
-* FuzzyFinderTextMate(http://github.com/jamis/fuzzyfinder_textmate
+* [BufOnly](http://github.com/duff/vim-bufonly "BufOnly at github")
+* [Endwise](http://github.com/tpope/vim-endwise "vim-endwise at github")
+* [Fugitive](http://github.com/tpope/vim-fugitive "vim-fugitive at github")
+* [FuzzyFinderTextMate](http://github.com/jamis/fuzzyfinder_textmate
   "fuzzyfinder_textmate at github")
-* NERDCommenter(http://github.com/scrooloose/nerdcommenter "nerdcommenter at
+* [NERDCommenter](http://github.com/scrooloose/nerdcommenter "nerdcommenter at
   github")
-* NERDTree(http://github.com/scrooloose/nerdtree "nerdtree at github")
-* Rails.vim(http://github.com/tpope/vim-rails "vim-rails at github")
-* Space.vim(http://github.com/spiiph/vim-space "vim-space at github")
-* SuperTab Continued(http://www.vim.org/scripts/script.php?script_id=1643
+* [NERDTree](http://github.com/scrooloose/nerdtree "nerdtree at github")
+* [Rails.vim](http://github.com/tpope/vim-rails "vim-rails at github")
+* [Space.vim](http://github.com/spiiph/vim-space "vim-space at github")
+* [SuperTab Continued](http://www.vim.org/scripts/script.php?script_id=1643
   "SuperTab Continued at vim.org")
-* Surround.vim(http://github.com/tpope/vim-surround "vim-surround at github")
-* Syntastic(http://github.com/scrooloose/syntastic "syntastic at github")
-* VimShell(http://github.com/Shougo/vimshell "vimshell at github")
-* YankRing(http://www.vim.org/scripts/script.php?script_id=1234 "yankring at
+* [Surround.vim](http://github.com/tpope/vim-surround "vim-surround at github")
+* [Syntastic](http://github.com/scrooloose/syntastic "syntastic at github")
+* [VimShell](http://github.com/Shougo/vimshell "vimshell at github")
+* [YankRing](http://www.vim.org/scripts/script.php?script_id=1234 "yankring at
   vim.org")
 
 It also contains a few special syntax files:
