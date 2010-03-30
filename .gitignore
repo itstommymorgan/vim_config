@@ -6,3 +6,4 @@
 # *~
 .DS_Store
 vim/yankring_history_v2.txt
+vim/config/private/*
