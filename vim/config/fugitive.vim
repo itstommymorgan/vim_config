@@ -3,10 +3,10 @@
 """"""""""""""""""""""""""""""""""""""""
 
 " keybindings
-map <Leader>Gs :Gstatus<CR>
-map <Leader>Gc :Gcommit<CR>
-map <Leader>Gp :Git push origin master<CR>
+map <Leader>gs :Gstatus<CR>
+map <Leader>gc :Gcommit<CR>
+map <Leader>gp :Git push origin master<CR>
 
 " git-svn specific keybinds
-map <Leader>Gnr :Git svn rebase<CR>
-map <leader>Gnd :Git svn dcommit<CR>
+map <Leader>gnr :Git svn rebase<CR>
+map <leader>gnd :Git svn dcommit<CR>
