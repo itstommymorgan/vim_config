@@ -37,3 +37,6 @@
 [submodule "vim/external/vim-rails"]
 	path = vim/external/vim-rails
 	url = git://github.com/tpope/vim-rails.git
+[submodule "vim/external/vim-markdown"]
+	path = vim/external/vim-markdown
+	url = git://github.com/tpope/vim-markdown.git

@@ -1,0 +1,1 @@
+../external/vim-markdown/ftdetect/markdown.vim
