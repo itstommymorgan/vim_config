@@ -19,3 +19,6 @@ map <Leader>l <C-W>l
 " navigate around in buffers...
 map <Leader>n :bnext<CR>
 map <Leader>p :bprevious<CR>
+
+" close all buffers but this one
+map <Leader>bo :BufOnly<CR>
