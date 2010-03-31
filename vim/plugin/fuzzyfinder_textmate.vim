@@ -1,1 +1,0 @@
-../external/fuzzyfinder_textmate/fuzzyfinder_textmate.vim

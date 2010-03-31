@@ -25,12 +25,6 @@
 [submodule "vim/external/vim-bufonly"]
 	path = vim/external/vim-bufonly
 	url = git://github.com/duff/vim-bufonly.git
-[submodule "vim/external/fuzzyfinder_textmate"]
-	path = vim/external/fuzzyfinder_textmate
-	url = git://github.com/jamis/fuzzyfinder_textmate.git
-[submodule "vim/external/fuzzy_file_finder"]
-	path = vim/external/fuzzy_file_finder
-	url = git://github.com/jamis/fuzzy_file_finder.git
 [submodule "vim/external/vimshell"]
 	path = vim/external/vimshell
 	url = git://github.com/Shougo/vimshell.git
