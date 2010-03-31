@@ -14,12 +14,15 @@ set whichwrap+=<,>,h,l   " cursor keys also wrap
 
 " spaces instead of tabs
 " prefer 3 spaces
+set softtabstop=3
 set tabstop=3
 set shiftwidth=3
 set expandtab
 
+set autoread     " automatically reload a file if it's changed outside vim
+
 " wrap settings
-set wrap         " wrap lines rather than use horiz. scrolling
+set nowrap       " wrap lines rather than use horiz. scrolling
 set linebreak    " try not to wrap in the middle of a word
 set textwidth=80 " 80-character lines maximum
 

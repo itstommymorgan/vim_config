@@ -19,3 +19,13 @@ nnoremap <Leader>! :<C-u>VimShellInteractive<Space>
 
 " use & to run a command in the background
 nnoremap & :<C-u>VimShellExecute<Space>
+
+" status bar
+set statusline=\ "
+set statusline+=%f\ " filename
+set statusline+=[
+set statusline+=%{strlen(&ft)?&ft:'none'} " filetype
+set statusline+=]
+set statusline+=%h%1*%m%r%w%0* " flag
+set statusline+=%= " right align
+set statusline+=%~14.(%1,%c%V)\ %<%P " offset
