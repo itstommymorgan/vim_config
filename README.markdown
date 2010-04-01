@@ -48,10 +48,10 @@ Currently, this vim configuration ships with the following plugins:
 * [BufExplorer](http://www.vim.org/scripts/script.php?script_id=42 "BufExplorer at
   vim.org")
 * [BufOnly](http://github.com/duff/vim-bufonly "BufOnly at github")
+* [Command-T](http://www.vim.org/scripts/script.php?script_id=3025 "Command-T at
+  vim.org")
 * [Endwise](http://github.com/tpope/vim-endwise "vim-endwise at github")
 * [Fugitive](http://github.com/tpope/vim-fugitive "vim-fugitive at github")
-* [FuzzyFinderTextMate](http://github.com/jamis/fuzzyfinder_textmate
-  "fuzzyfinder_textmate at github")
 * [NERDCommenter](http://github.com/scrooloose/nerdcommenter "nerdcommenter at
   github")
 * [NERDTree](http://github.com/scrooloose/nerdtree "nerdtree at github")
@@ -146,6 +146,13 @@ Useful for when you've got a bunch of buffers open that aren't pertinent any
 more (e.g. you're switching to a different project now, etc.). I've mapped the
 BufOnly command to the `<Leader>bo` keychain.
 
+### Command-T ###
+
+In the Mac OS X application TextMate, you can use Cmd-t to do a 'fuzzy' search
+for files in your current working directory. Command-T is a plugin that duplicates
+   this functionality - using <Leader>t by default. Just start typing and you'll see it in
+   action. The config settings I've made are in `vim\config\commandt.vim`.
+
 ### Endwise ###
 
 Endwise attempts to intelligently insert 'end' in Ruby/VimL. It's likely not
@@ -170,19 +177,6 @@ I also added a couple of git-svn keychains:
 
 You can also check the configuration changes I made in
 `vim/config/fugitive.vim`.
-
-### FuzzyFinderTextMate ###
-
-In the Mac OS X application TextMate, you can use Cmd-t to do a 'fuzzy' search
-for files in your current working directory. FuzzyFinderTextMate duplicates this
-   functionality for Vim - I've bound the `<Leader>t` keyboard shortcut to bring
-   up the FuzzyFinderTextMate menu - just start typing and you'll see it in
-   action. The config settings I've made are in `vim\config\fuzzyfinder.vim`.
-
-*NOTE:* FuzzyFinderTextMate relies on an older version of the FuzzyFinder
-plugin, which I have included in this configuration. If you update it,
-FuzzyFinderTextMate will break. Which may be OK with you. I just wanted you to
-know.
 
 ### NERDCommenter ###
 
@@ -242,7 +236,7 @@ file has a more than sufficient explanation and tutorial: `:help surround`.
 
 Syntastic provides syntax-checking for you when you load/write to a buffer. It
 has syntax checkers for several popular programming languages/markup languages
-(look in `vim/syntax\_checkers/` for the full list), and will automatically flag
+(look in `vim/syntax_checkers/` for the full list), and will automatically flag
 any errors/warnings it finds. You can check the helpfile for it at `:help
 syntastic`, and see the configuration settings I use in
 `vim/config/syntastic.vim`.
