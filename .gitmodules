@@ -1,36 +1,36 @@
-[submodule "vim/external/nerdtree"]
-	path = vim/external/nerdtree
+[submodule "home/.vim/external/nerdtree"]
+	path = home/.vim/external/nerdtree
 	url = git://github.com/scrooloose/nerdtree.git
-[submodule "vim/external/vim-fugitive"]
-	path = vim/external/vim-fugitive
+[submodule "home/.vim/external/vim-fugitive"]
+	path = home/.vim/external/vim-fugitive
 	url = git://github.com/tpope/vim-fugitive.git
-[submodule "vim/external/nerdcommenter"]
-	path = vim/external/nerdcommenter
+[submodule "home/.vim/external/nerdcommenter"]
+	path = home/.vim/external/nerdcommenter
 	url = git://github.com/scrooloose/nerdcommenter.git
-[submodule "vim/external/syntastic"]
-	path = vim/external/syntastic
+[submodule "home/.vim/external/syntastic"]
+	path = home/.vim/external/syntastic
 	url = git://github.com/scrooloose/syntastic.git
-[submodule "vim/external/endwise"]
-	path = vim/external/endwise
+[submodule "home/.vim/external/endwise"]
+	path = home/.vim/external/endwise
 	url = git://github.com/tpope/vim-endwise.git
-[submodule "vim/external/vim-space"]
-	path = vim/external/vim-space
+[submodule "home/.vim/external/vim-space"]
+	path = home/.vim/external/vim-space
 	url = git://github.com/spiiph/vim-space.git
-[submodule "vim/external/vim-haml"]
-	path = vim/external/vim-haml
+[submodule "home/.vim/external/vim-haml"]
+	path = home/.vim/external/vim-haml
 	url = git://github.com/tpope/vim-haml.git
-[submodule "vim/external/vim-surround"]
-	path = vim/external/vim-surround
+[submodule "home/.vim/external/vim-surround"]
+	path = home/.vim/external/vim-surround
 	url = git://github.com/tpope/vim-surround.git
-[submodule "vim/external/vim-bufonly"]
-	path = vim/external/vim-bufonly
+[submodule "home/.vim/external/vim-bufonly"]
+	path = home/.vim/external/vim-bufonly
 	url = git://github.com/duff/vim-bufonly.git
-[submodule "vim/external/vimshell"]
-	path = vim/external/vimshell
+[submodule "home/.vim/external/vimshell"]
+	path = home/.vim/external/vimshell
 	url = git://github.com/Shougo/vimshell.git
-[submodule "vim/external/vim-rails"]
-	path = vim/external/vim-rails
+[submodule "home/.vim/external/vim-rails"]
+	path = home/.vim/external/vim-rails
 	url = git://github.com/tpope/vim-rails.git
-[submodule "vim/external/vim-markdown"]
-	path = vim/external/vim-markdown
+[submodule "home/.vim/external/vim-markdown"]
+	path = home/.vim/external/vim-markdown
 	url = git://github.com/tpope/vim-markdown.git
