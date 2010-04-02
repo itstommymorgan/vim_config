@@ -21,7 +21,7 @@ if you've never used Vim before - go through the vim tutorial (`:help vimtutor`)
 
 ## INSTALLATION ##
 
-Though you'll probably want to just examine this vim config to see what I've got used, if you're TOTALLY new to vim, you might want to install it and try it out yourself. That's cool. Here's how:
+Though you'll probably want to just examine this vim config to see what I've used, if you're TOTALLY new to vim, you might want to install it and try it out yourself. That's cool. Here's how:
 
 1. Fork this repository (so you have your own copy for when you want to make changes).
 2. Install the homesick gem (this makes it really easy): `sudo gem install homesick`
