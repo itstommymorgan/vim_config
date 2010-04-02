@@ -21,25 +21,13 @@ if you've never used Vim before - go through the vim tutorial (`:help vimtutor`)
 
 ## INSTALLATION ##
 
-You should probably read the rest of this file to find out what this vim config
-is and how it works first... but if you want to jump in and install it, do the
-following:
+Though you'll probably want to just examine this vim config to see what I've got used, if you're TOTALLY new to vim, you might want to install it and try it out yourself. That's cool. Here's how:
 
-* You should probably fork this repository first, so that you can track your own
-  changes.
-* After you fork the repository, you'll want to clone it locally:
-
-      git clone git://path/to/your/forked/vim_config /some/local/vim_config 
-* Update the git-submodules so that you've got the latest-and-greatest:
-
-      cd /some/local/vim_config && git submodule init && git submodule update
-* Then create a symlink from your local copy to your $HOME:
-
-      ln -s /some/local/vim_config/vim $HOME/.vim
-
-      ln -s /some/local/vim_config/vimrc $HOME/.vimrc
-
-* Enjoy!
+1. Fork this repository (so you have your own copy for when you want to make changes).
+2. Install the homesick gem (this makes it really easy): `sudo gem install homesick`
+3. Install your copy of the vim_config repository using homesick: `homesick clone your_github_username/vim_config` (assuming you cloned it on github)
+4. Symlink it using homesick: `homesick symlink vim_config`
+5. Done.
 
 ## FEATURES ##
 
