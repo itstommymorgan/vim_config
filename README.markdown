@@ -40,6 +40,8 @@ Currently, this vim configuration ships with the following plugins:
   vim.org")
 * [Endwise](http://github.com/tpope/vim-endwise "vim-endwise at github")
 * [Fugitive](http://github.com/tpope/vim-fugitive "vim-fugitive at github")
+* [Gist.vim](http://www.vim.org/scripts/script.php?script_id=2423 "gist.vim at
+  vim.org")
 * [NERDCommenter](http://github.com/scrooloose/nerdcommenter "nerdcommenter at
   github")
 * [NERDTree](http://github.com/scrooloose/nerdtree "nerdtree at github")
@@ -165,6 +167,13 @@ I also added a couple of git-svn keychains:
 
 You can also check the configuration changes I made in
 `vim/config/fugitive.vim`.
+
+### Gist.vim ###
+
+Gist.vim is a simple plugin for integrating with Github's code-sharing service,
+[Gist](http://gist.github.com). `:Gist` to post the current buffer to a new gist,
+`:Gist -p` posts a new private one, etc., etc. - check the plugin's vim.org page
+for more detailed instructions.
 
 ### NERDCommenter ###
 
