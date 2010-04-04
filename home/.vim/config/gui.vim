@@ -12,4 +12,7 @@ if has("gui_running")
    " 
    " more interesting, what is absent: no menu, no toolbar, no scrollbars.
    set guioptions=ac
+
+   set lines=60
+   set columns=180
 endif
