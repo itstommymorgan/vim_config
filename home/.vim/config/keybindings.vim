@@ -22,3 +22,11 @@ map <Leader>p :bprevious<CR>
 
 " close all buffers but this one
 map <Leader>bo :BufOnly<CR>
+
+" switch ' and `, because:
+" ' jumps to the start of the line where a mark is
+" ` jumps to the exact location of a mark
+" because jumping to the exact location is more useful,
+" I like it to be closer to the home row, so I switch the keys.
+noremap ' `
+noremap ` '
