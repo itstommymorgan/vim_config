@@ -26,7 +26,7 @@ Though you'll probably want to just examine this vim config to see what I've use
 1. Fork this repository (so you have your own copy for when you want to make changes).
 2. Install the homesick gem (this makes it really easy): `sudo gem install homesick`
 3. Install your copy of the vim_config repository using homesick: `homesick clone your_github_username/vim_config` (assuming you cloned it on github)
-4. Symlink it using homesick: `homesick symlink duwanis/vim_config`
+4. Symlink it using homesick: `homesick symlink your_github_username/vim_config`
 5. Done.
 
 ## FEATURES ##
