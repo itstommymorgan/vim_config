@@ -28,6 +28,10 @@ Though you'll probably want to just examine this vim config to see what I've use
 3. Install your copy of the vim_config repository using homesick: `homesick clone your_github_username/vim_config` (assuming you cloned it on github)
 4. Symlink it using homesick: `homesick symlink your_github_username/vim_config`
 5. Done.
+6. ...unless you want to use command-T, which requires that you build some
+   stuff first.
+7. `cd ~/.vim/ruby/command-t && ruby extconf.rb && make` takes care of that,
+   though.
 
 ## FEATURES ##
 
