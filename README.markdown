@@ -92,7 +92,7 @@ All plugins, syntax files, etc. are stored in the 'usual' place. There are three
 * in Vim, you can define a mapleader key, which you can then use for
   keybindings. I personally prefer to use the semicolon (';') for the mapleader,
   since it's right there on the home row. If you'd like to change it to
-  something else (it defaults to '\', and I know several people who prefer the
+  something else (it defaults to '\\', and I know several people who prefer the
   comma (',')), you can find that setting in the vimrc file. For the rest of
   this README I'll use <Leader> to indicate a keybinding that makes use of the
   mapleader - e.g. `<Leader>t` means hit <Leader> (the semicolon, unless you've
