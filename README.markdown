@@ -55,7 +55,6 @@ Currently, this vim configuration ships with the following plugins:
   "SuperTab Continued at vim.org")
 * [Surround.vim](http://github.com/tpope/vim-surround "vim-surround at github")
 * [Syntastic](http://github.com/scrooloose/syntastic "syntastic at github")
-* [VimShell](http://github.com/Shougo/vimshell "vimshell at github")
 * [YankRing](http://www.vim.org/scripts/script.php?script_id=1234 "yankring at
   vim.org")
 
@@ -241,14 +240,6 @@ has syntax checkers for several popular programming languages/markup languages
 any errors/warnings it finds. You can check the helpfile for it at `:help
 syntastic`, and see the configuration settings I use in
 `vim/config/syntastic.vim`.
-
-### VimShell ###
-
-VimShell gives you a shell in Vim... sort of. :) It's not a native shell, by any
-means, but it's still sort of useful.
-
-You can use `<Leader>T` to switch to/start a VimShell buffer. The configuration
-for VimShell can be found in `vim/config/vimshell.vim`.
 
 ### YankRing ###
 

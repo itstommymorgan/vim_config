@@ -1,1 +1,0 @@
-../external/vimshell/syntax/vimshell.vim
