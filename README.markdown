@@ -10,6 +10,10 @@ configuration necessitates a \*nix system (Mac OS X, Linux, etc.) in order to
 work properly. But you're probably on \*nix anyway if you want to use Vim, so
 that's probably not a big deal.
 
+A couple of the plugins (namely, Command-T and Conque) require Vim to be
+compiled with Ruby and/or Python support in order to operate correctly. Be aware
+of that if you run into any problems.
+
 ## NEWBIE-FRIENDLY ##
 
 This config is written to be newbie-friendly - basically, when I introduce
@@ -42,6 +46,7 @@ Currently, this vim configuration ships with the following plugins:
 * [BufOnly](http://github.com/duff/vim-bufonly "BufOnly at github")
 * [Command-T](http://www.vim.org/scripts/script.php?script_id=3025 "Command-T at
   vim.org")
+* [Conque](http://code.google.com/p/conque/ "Conque at Google Code")
 * [Endwise](http://github.com/tpope/vim-endwise "vim-endwise at github")
 * [Fugitive](http://github.com/tpope/vim-fugitive "vim-fugitive at github")
 * [Gist.vim](http://www.vim.org/scripts/script.php?script_id=2423 "gist.vim at
@@ -145,6 +150,20 @@ In the Mac OS X application TextMate, you can use Cmd-t to do a 'fuzzy' search
 for files in your current working directory. Command-T is a plugin that duplicates
    this functionality - using <Leader>t by default. Just start typing and you'll see it in
    action. The config settings I've made are in `vim\config\commandt.vim`.
+
+### Conque ###
+
+Conque is awesome. It allows you to run (and interact with) any executable
+inside vim. This means that you can run a shell, irb, script/console, or any
+similar tool inside of a vim buffer. I've got a few default bindings set up as
+follows (each of these, by default, opens the new buffer in a new
+horizontally-split window):
+
+* `<Leader>ss` - this starts your `$SHELL` in a new buffer.
+* `<Leader>sc` - this starts `./script/console` in a new buffer.
+* `<Leader>si` - this starts `irb` in a new buffer.
+* `<Leader>sx` - this starts... whatever you want :) it prompts you to enter the
+  executable you want to run, and then starts it in a new buffer.
 
 ### Endwise ###
 

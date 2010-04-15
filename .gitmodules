@@ -25,9 +25,6 @@
 [submodule "home/.vim/external/vim-bufonly"]
 	path = home/.vim/external/vim-bufonly
 	url = git://github.com/duff/vim-bufonly.git
-[submodule "home/.vim/external/vimshell"]
-	path = home/.vim/external/vimshell
-	url = git://github.com/Shougo/vimshell.git
 [submodule "home/.vim/external/vim-rails"]
 	path = home/.vim/external/vim-rails
 	url = git://github.com/tpope/vim-rails.git
