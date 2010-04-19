@@ -2,9 +2,8 @@
 "" loads display-related option (colorscheme, etc.)
 """""""""""""""""""""""""""""""""""""""""""""""""""
 
-" use the 'high-contrast' version of zenburn
-let g:zenburn_high_Contrast=1
-colorscheme zenburn
+" use the desert256 colorscheme (works better with console than zenburn)
+colorscheme desert256
 
 set laststatus=2   " always display a status line
 set number         " show line numbers
