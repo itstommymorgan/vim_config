@@ -42,3 +42,9 @@ set textwidth=80 " 80-character lines maximum
 " 1 - Don't break a line after a one-letter word. It's broken before it
 "     instead (if possible).
 set formatoptions=tcrqn21
+
+" Automatically restore cursor position when possible
+autocmd BufReadPost *
+   \ if line("'\"") > 1 && line("'\"") <= line("$") |
+   \ exe "normal! g`\"" |
+   \ endif
