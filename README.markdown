@@ -123,7 +123,9 @@ All plugins, syntax files, etc. are stored in the 'usual' place. There are three
 * Search-related settings (incremental search, highlighting of search terms, and
   the like) are found in `vim/config/search.vim`.
 * Temporary files are kept in one central location so that they don't clutter
-  your project folders - these settings can be found in
+  your project folders. Rather than warning you when you open a file that
+  already has a swapfile (e.g. a file that's open in another vim session), vim
+  should now quietly let you edit the file, which is much less annoying. These settings can be found in
   `vim/config/tempfiles.vim`.
 
 ## PLUGINS ##
