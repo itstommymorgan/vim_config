@@ -41,6 +41,8 @@ Though you'll probably want to just examine this vim config to see what I've use
 
 Currently, this vim configuration ships with the following plugins:
 
+* [AutoClose](http://www.vim.org/scripts/script.php?script_id=1849 "AutoClose at
+  vim.org")
 * [BufExplorer](http://www.vim.org/scripts/script.php?script_id=42 "BufExplorer at
   vim.org")
 * [BufOnly](http://github.com/duff/vim-bufonly "BufOnly at github")
@@ -60,6 +62,8 @@ Currently, this vim configuration ships with the following plugins:
   "SuperTab Continued at vim.org")
 * [Surround.vim](http://github.com/tpope/vim-surround "vim-surround at github")
 * [Syntastic](http://github.com/scrooloose/syntastic "syntastic at github")
+* [TailMinusF](http://www.vim.org/scripts/script.php?script_id=1374 "TailMinusF
+  at vim.org")
 * [YankRing](http://www.vim.org/scripts/script.php?script_id=1234 "yankring at
   vim.org")
 
@@ -268,6 +272,13 @@ has syntax checkers for several popular programming languages/markup languages
 any errors/warnings it finds. You can check the helpfile for it at `:help
 syntastic`, and see the configuration settings I use in
 `vim/config/syntastic.vim`.
+
+### TailMinusF ###
+
+TailMinusF allows you to open a buffer that watches the contents of a file in
+a similar fashion to the UNIX command `tail -f` (hence the name). This is mostly
+included as a dependency to Rails.vim, but you can use it on its own via the
+`:Tail` command.
 
 ### YankRing ###
 
