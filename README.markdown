@@ -29,7 +29,7 @@ Though you'll probably want to just examine this vim config to see what I've use
 
 1. Fork this repository (so you have your own copy for when you want to make changes).
 2. Install the homesick gem (this makes it really easy): `sudo gem install homesick`
-3. Install your copy of the vim_config repository using homesick: `homesick clone your_github_username/vim_config` (assuming you cloned it on github)
+3. Install your copy of the vim\_config repository using homesick: `homesick clone your_github_username/vim_config` (assuming you cloned it on github)
 4. Symlink it using homesick: `homesick symlink your_github_username/vim_config`
 5. Done.
 6. ...unless you want to use command-T, which requires that you build some
@@ -49,6 +49,8 @@ Currently, this vim configuration ships with the following plugins:
 * [Command-T](http://www.vim.org/scripts/script.php?script_id=3025 "Command-T at
   vim.org")
 * [Conque](http://code.google.com/p/conque/ "Conque at Google Code")
+* [dbext.vim](http://www.vim.org/scripts/script.php?script_id=356 "dbext at
+  vim.org")
 * [Endwise](http://github.com/tpope/vim-endwise "vim-endwise at github")
 * [Fugitive](http://github.com/tpope/vim-fugitive "vim-fugitive at github")
 * [Gist.vim](http://www.vim.org/scripts/script.php?script_id=2423 "gist.vim at
@@ -177,6 +179,12 @@ horizontally-split window):
 * `<Leader>si` - this starts `irb` in a new buffer.
 * `<Leader>sx` - this starts... whatever you want :) it prompts you to enter the
   executable you want to run, and then starts it in a new buffer.
+
+### dbext.vim ###
+
+Dbext is a very powerful plugin that provides database integration with vim. For
+the most part, this is included because Rails.vim plays very nicely with it, but
+you can also use it on its own if you prefer.
 
 ### Endwise ###
 
