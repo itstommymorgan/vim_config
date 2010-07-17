@@ -130,6 +130,13 @@ All plugins, syntax files, etc. are stored in the 'usual' place. There are three
 
 ## PLUGINS ##
 
+### AutoClose ###
+
+Autoclose monitors when you type paired characters (like `"`, `(`, etc.) and
+automatically places the closing character for you. e.g. you can type `"` and
+autoclose will automatically change it to `"|"` (where the '|' in this case
+represents your cursor location).
+
 ### BufExplorer ###
 
 BufExplorer is a quick way to switch around between windows. You can run `:help
