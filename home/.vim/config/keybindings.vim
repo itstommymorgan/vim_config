@@ -30,3 +30,5 @@ map <Leader>bo :BufOnly<CR>
 " I like it to be closer to the home row, so I switch the keys.
 noremap ' `
 noremap ` '
+
+nnoremap ;; :
