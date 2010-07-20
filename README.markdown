@@ -59,9 +59,9 @@ Currently, this vim configuration ships with the following plugins:
   github")
 * [NERDTree](http://github.com/scrooloose/nerdtree "nerdtree at github")
 * [Rails.vim](http://github.com/tpope/vim-rails "vim-rails at github")
+* [SnipMate](http://www.vim.org/scripts/script.php?script_id=2540
+  "SnipMate at vim.org")
 * [Space.vim](http://github.com/spiiph/vim-space "vim-space at github")
-* [SuperTab Continued](http://www.vim.org/scripts/script.php?script_id=1643
-  "SuperTab Continued at vim.org")
 * [Surround.vim](http://github.com/tpope/vim-surround "vim-surround at github")
 * [Syntastic](http://github.com/scrooloose/syntastic "syntastic at github")
 * [TailMinusF](http://www.vim.org/scripts/script.php?script_id=1374 "TailMinusF
@@ -252,18 +252,18 @@ I've made a couple of config changes to rails.vim (mostly changing the automatic
 2-space setting that it uses for indentation, since I'm required to use 3 spaces
 at work), which can be found in `vim/config/rails.vim`.
 
+### SnipMate ###
+
+SnipMate gives you snippets - pieces of often typed tyext you can insert into
+your document using a trigger word. Checkout the help files (`:help snipmate`)
+or view the plugin's website at vim.org for more specifics.
+
 ### Space.vim ###
 
 Space.vim allows you to use the <Space> key as a repeat key for some complex
 motion commands (most notably for me, searching - I can search for something and
 then hit space to move forward and shift-space to move backwards through the
 results). Run `:help space-intro` to read up on it.
-
-### SuperTab Cont. ###
-
-This plugin gives you tab-completion in insert mode, which is pretty awesome.
-It can be a lot more complicated than that - run `:help supertab` to go down the
-rabbit-hole if you'd like.
 
 ### Surround.vim ###
 
