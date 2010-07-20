@@ -14,11 +14,11 @@ set showmode       " display the current mode in the status bar
 set title          " show file in titlebar
 
 " status bar
-" set statusline=\ "
-" set statusline+=%f\ " filename
-" set statusline+=[
-" set statusline+=%{strlen(&ft)?&ft:'none'} " filetype
-" set statusline+=]
-" set statusline+=%h%1*%m%r%w%0* " flag
-" set statusline+=%= " right align
-" set statusline+=%~14.(%1,%c%V)\ %<%P " offset
+set statusline=\ "
+set statusline+=%f\ " filename
+set statusline+=[
+set statusline+=%{strlen(&ft)?&ft:'none'} " filetype
+set statusline+=]
+set statusline+=%h%1*%m%r%w%0* " flag
+set statusline+=%= " right align
+set statusline+=(%l,%c%V)\ %<%P " offset
