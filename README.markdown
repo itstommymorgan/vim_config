@@ -59,6 +59,8 @@ Currently, this vim configuration ships with the following plugins:
   github")
 * [NERDTree](http://github.com/scrooloose/nerdtree "nerdtree at github")
 * [Rails.vim](http://github.com/tpope/vim-rails "vim-rails at github")
+* [rvm.vim](http://www.vim.org/scripts/script.php?script_id=3134 "rvm.vim at
+  vim.org")
 * [SnipMate](http://www.vim.org/scripts/script.php?script_id=2540
   "SnipMate at vim.org")
 * [Space.vim](http://github.com/spiiph/vim-space "vim-space at github")
@@ -66,6 +68,8 @@ Currently, this vim configuration ships with the following plugins:
 * [Syntastic](http://github.com/scrooloose/syntastic "syntastic at github")
 * [TailMinusF](http://www.vim.org/scripts/script.php?script_id=1374 "TailMinusF
   at vim.org")
+* [VimClojure](http://kotka.de/projects/clojure/vimclojure.html "VimClojure at
+  kotka.de")
 * [YankRing](http://www.vim.org/scripts/script.php?script_id=1234 "yankring at
   vim.org")
 
@@ -252,6 +256,13 @@ I've made a couple of config changes to rails.vim (mostly changing the automatic
 2-space setting that it uses for indentation, since I'm required to use 3 spaces
 at work), which can be found in `vim/config/rails.vim`.
 
+### rvm.vim ###
+
+rvm.vim allows you to place an indicator in your status line that determines
+which Ruby/Gemset you're currently using through RVM (the Ruby Version Manager).
+Although I highly recommend using RVM if you're a Rubyist, you can simply remove
+rvm.vim if you don't find this helpful.
+
 ### SnipMate ###
 
 SnipMate gives you snippets - pieces of often typed tyext you can insert into
@@ -287,6 +298,13 @@ TailMinusF allows you to open a buffer that watches the contents of a file in
 a similar fashion to the UNIX command `tail -f` (hence the name). This is mostly
 included as a dependency to Rails.vim, but you can use it on its own via the
 `:Tail` command.
+
+### VimClojure ###
+
+VimClojure provides some syntax coloring, etc. for the Clojure language. It can
+also provide a lot more if you want to set up a server that it can communicate
+to. I don't, so the setup here is pretty simple. Check the website for
+instructions if you're curious on what else it can do, though.
 
 ### YankRing ###
 
