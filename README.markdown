@@ -167,7 +167,7 @@ BufOnly command to the `<Leader>bo` keychain.
 
 In the Mac OS X application TextMate, you can use Cmd-t to do a 'fuzzy' search
 for files in your current working directory. Command-T is a plugin that duplicates
-   this functionality - using <Leader>t by default. Just start typing and you'll see it in
+   this functionality - using `<Leader>t` by default. Just start typing and you'll see it in
    action. The config settings I've made are in `vim\config\commandt.vim`.
 
 ### Conque ###
@@ -265,7 +265,7 @@ rvm.vim if you don't find this helpful.
 
 ### SnipMate ###
 
-SnipMate gives you snippets - pieces of often typed tyext you can insert into
+SnipMate gives you snippets - pieces of often typed text you can insert into
 your document using a trigger word. Checkout the help files (`:help snipmate`)
 or view the plugin's website at vim.org for more specifics.
 
