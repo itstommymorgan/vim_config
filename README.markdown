@@ -46,6 +46,8 @@ Currently, this vim configuration ships with the following plugins:
 * [BufExplorer](http://www.vim.org/scripts/script.php?script_id=42 "BufExplorer at
   vim.org")
 * [BufOnly](http://github.com/duff/vim-bufonly "BufOnly at github")
+* [CamelCaseMotion](http://www.vim.org/scripts/script.php?script_id=1905
+  "CamelCaseMotion at vim.org")
 * [Command-T](http://www.vim.org/scripts/script.php?script_id=3025 "Command-T at
   vim.org")
 * [Conque](http://code.google.com/p/conque/ "Conque at Google Code")
@@ -58,6 +60,7 @@ Currently, this vim configuration ships with the following plugins:
 * [NERDCommenter](http://github.com/scrooloose/nerdcommenter "nerdcommenter at
   github")
 * [NERDTree](http://github.com/scrooloose/nerdtree "nerdtree at github")
+* [Rake.vim](http://github.com/tpope/vim-rake "vim-rake at github")
 * [Rails.vim](http://github.com/tpope/vim-rails "vim-rails at github")
 * [rvm.vim](http://www.vim.org/scripts/script.php?script_id=3134 "rvm.vim at
   vim.org")
@@ -163,6 +166,14 @@ Useful for when you've got a bunch of buffers open that aren't pertinent any
 more (e.g. you're switching to a different project now, etc.). I've mapped the
 BufOnly command to the `<Leader>bo` keychain.
 
+### CamelCaseMotion ###
+
+CamelCaseMotion defines keybindings for motions that work on camel-case words
+(and underscore-separated words). e.g., by default, `w` goes to the end of the
+word, even if that word is CamelCasedLikeThis. Using CamelCaseMotion, you can
+use `,w` to move to the next part of the CamelCasedWord. `:help camelcasemotion`
+for more information.
+
 ### Command-T ###
 
 In the Mac OS X application TextMate, you can use Cmd-t to do a 'fuzzy' search
@@ -244,6 +255,12 @@ the 'drawer' buffer for you. You'll also want to check out the help - `:help
 NERDTree`, or simply press `?` while you're in the NERDTree buffer to see the
 list of keyboard shortcuts you can use. The configuration for NERDTree is
 present in `vim/config/nerdtree.vim`.
+
+### Rake.vim ###
+
+Rake.vim provides some of the nicer functionality from Rails.vim but for any
+ruby project, not just those that make use of Rails. `:help rake` for more
+information.
 
 ### Rails.vim ###
 

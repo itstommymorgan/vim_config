@@ -38,11 +38,11 @@ endfunction
 
 " Only display the ruby version if the filetype is ruby.
 function! rvm#statusline_ft_ruby(...)
-  if &filetype=='ruby'
+"  if &filetype=='ruby'
     return rvm#statusline()
-  else
-    return ''
-  endif
+"  else
+"    return ''
+"  endif
 endfunction
 " }}}1
 
