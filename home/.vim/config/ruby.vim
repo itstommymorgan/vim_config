@@ -14,4 +14,8 @@ fun LoadRubyKeybindings()
    " bind control-k to turn the current word into a symbol
    imap <buffer> <C-k> <C-o>b:<Esc>Ea
    nmap <buffer> <C-k> lbi:<Esc>E
+
+   " set the foldmethod to 'syntax'
+   setlocal foldmethod=syntax
+   setlocal foldlevel=2
 endfun
