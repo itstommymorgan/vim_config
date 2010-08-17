@@ -41,6 +41,8 @@ Though you'll probably want to just examine this vim config to see what I've use
 
 Currently, this vim configuration ships with the following plugins:
 
+* [Align.vim](http://www.vim.org/scripts/script.php?script_id=294 "Align.vim at
+  vim.org")
 * [AutoClose](http://www.vim.org/scripts/script.php?script_id=1849 "AutoClose at
   vim.org")
 * [BufExplorer](http://www.vim.org/scripts/script.php?script_id=42 "BufExplorer at
@@ -142,6 +144,25 @@ All plugins, syntax files, etc. are stored in the 'usual' place. There are three
   `vim/config/tempfiles.vim`.
 
 ## PLUGINS ##
+
+### Align.vim ###
+
+Align.vim provides an easy way to 'prettify' code statements. e.g., instead of
+
+    a = b
+    abc = 123
+    foobar = "totally"
+
+You could execute a simple command and have:
+
+    a      = b
+    abc    = 123
+    foobar = "totally"
+
+Whether or not that looks better to you is, of course, completely subjective :)
+Check out the help file (`:help align`) for more details. One thing to note,
+though, is that I explicitly do not include the default keybindings for
+Align.vim, as they're kind of silly and conflict with other plugins.
 
 ### AutoClose ###
 
