@@ -68,6 +68,8 @@ Currently, this vim configuration ships with the following plugins:
 * [NERDTree](http://github.com/scrooloose/nerdtree "nerdtree at github")
 * [Rake.vim](http://github.com/tpope/vim-rake "vim-rake at github")
 * [Rails.vim](http://github.com/tpope/vim-rails "vim-rails at github")
+* [repeat.vim](http://www.vim.org/scripts/script.php?script_id=2136 "repeat.vim
+  at vim.org")
 * [rvm.vim](http://www.vim.org/scripts/script.php?script_id=3134 "rvm.vim at
   vim.org")
 * [Scratch.vim](http://www.vim.org/scripts/script.php?script_id=664 "scratch.vim
@@ -315,6 +317,16 @@ and read up on everything that it offers.
 I've made a couple of config changes to rails.vim (mostly changing the automatic
 2-space setting that it uses for indentation, since I'm required to use 3 spaces
 at work), which can be found in `vim/config/rails.vim`.
+
+### repeat.vim ###
+
+Vim comes with a native 'repeat' operator - the `.` key will repeat the last
+action executed. The problem is, this doesn't work for most plugins - if you hit
+`.` after executing something with surround.vim, for example, only the last
+_native_ command will be repeated (not the whole process, like you wanted).
+Repeat.vim provides a way for plugins to hook into the `.` binding and use it
+correctly. Currently, only surround.vim provides support for this, but hopefully
+others will soon.
 
 ### rvm.vim ###
 
