@@ -70,7 +70,11 @@
 .snippets	snipMate.txt	/*.snippets*
 /MyProjectDir/	dbext.txt	/*\/MyProjectDir\/*
 /MyProjectDir/	dbext.txt	/*\/MyProjectDir\/*
+:Ack	ack.txt	/*:Ack*
+:AckAdd	ack.txt	/*:AckAdd*
 :Errors	syntastic.txt	/*:Errors*
+:LAck	ack.txt	/*:LAck*
+:LAckAdd	ack.txt	/*:LAckAdd*
 :NERDTree	NERD_tree.txt	/*:NERDTree*
 :NERDTreeClose	NERD_tree.txt	/*:NERDTreeClose*
 :NERDTreeFind	NERD_tree.txt	/*:NERDTreeFind*
@@ -257,6 +261,9 @@ YRToggle	yankring.txt	/*YRToggle*
 YRYankCount	yankring.txt	/*YRYankCount*
 YRYankRange	yankring.txt	/*YRYankRange*
 YRYankRange-example	yankring.txt	/*YRYankRange-example*
+ack	ack.txt	/*ack*
+ack-author	ack.txt	/*ack-author*
+ack.txt	ack.txt	/*ack.txt*
 align	Align.txt	/*align*
 align-align	Align.txt	/*align-align*
 align-codepoint	Align.txt	/*align-codepoint*

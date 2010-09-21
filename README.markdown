@@ -147,6 +147,13 @@ All plugins, syntax files, etc. are stored in the 'usual' place. There are three
 
 ## PLUGINS ##
 
+### Ack.vim ###
+
+Ack is better than grep. Ack.vim lets you use Ack to search in the current
+directory. It then loads the results into Vim's "quickfix" window for easy
+browsing. `<Leader>A` (note that's Shift-a) is configured to bring Ack up ready to search in
+`.vim/config/ack.vim`.
+
 ### Align.vim ###
 
 Align.vim provides an easy way to 'prettify' code statements. e.g., instead of
@@ -179,7 +186,8 @@ command so that they get parsed.
 Autoclose monitors when you type paired characters (like `"`, `(`, etc.) and
 automatically places the closing character for you. e.g. you can type `"` and
 autoclose will automatically change it to `"|"` (where the '|' in this case
-represents your cursor location).
+represents your cursor location). If you don't want to use autoclose in
+a certain situation, you can use the `<Leader>a` binding to toggle it.
 
 ### BufExplorer ###
 
