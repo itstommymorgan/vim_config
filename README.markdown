@@ -43,6 +43,8 @@ Currently, this vim configuration ships with the following plugins:
 
 * [Align.vim](http://www.vim.org/scripts/script.php?script_id=294 "Align.vim at
   vim.org")
+* [AsNeeded](http://www.vim.org/scripts/script.php?script_id=915 "AsNeeded at
+  vim.org")
 * [AutoClose](http://www.vim.org/scripts/script.php?script_id=1849 "AutoClose at
   vim.org")
 * [BufExplorer](http://www.vim.org/scripts/script.php?script_id=42 "BufExplorer at
@@ -163,6 +165,14 @@ Whether or not that looks better to you is, of course, completely subjective :)
 Check out the help file (`:help align`) for more details. One thing to note,
 though, is that I explicitly do not include the default keybindings for
 Align.vim, as they're kind of silly and conflict with other plugins.
+
+### AsNeeded ###
+
+AsNeeded allows plugins, bindings, functions, etc. to be loaded on a (surprise!)
+as-needed basis. Its biggest advantage is that it reduces the initial load time
+for vim - in my case by somewhere around 66%.
+If you add any new plugins, you'll want to be sure to run the `:MkAsNeeded`
+command so that they get parsed.
 
 ### AutoClose ###
 
