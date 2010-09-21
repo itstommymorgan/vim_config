@@ -41,6 +41,8 @@ Though you'll probably want to just examine this vim config to see what I've use
 
 Currently, this vim configuration ships with the following plugins:
 
+* [Ack.vim](http://www.vim.org/scripts/script.php?script_id=2572 "Ack.vim at
+  vim.org")
 * [Align.vim](http://www.vim.org/scripts/script.php?script_id=294 "Align.vim at
   vim.org")
 * [AsNeeded](http://www.vim.org/scripts/script.php?script_id=915 "AsNeeded at
@@ -68,6 +70,8 @@ Currently, this vim configuration ships with the following plugins:
 * [Rails.vim](http://github.com/tpope/vim-rails "vim-rails at github")
 * [rvm.vim](http://www.vim.org/scripts/script.php?script_id=3134 "rvm.vim at
   vim.org")
+* [Scratch.vim](http://www.vim.org/scripts/script.php?script_id=664 "scratch.vim
+  at vim.org")
 * [SnipMate](http://www.vim.org/scripts/script.php?script_id=2540
   "SnipMate at vim.org")
 * [Space.vim](http://github.com/spiiph/vim-space "vim-space at github")
@@ -318,6 +322,16 @@ rvm.vim allows you to place an indicator in your status line that determines
 which Ruby/Gemset you're currently using through RVM (the Ruby Version Manager).
 Although I highly recommend using RVM if you're a Rubyist, you can simply remove
 rvm.vim if you don't find this helpful.
+
+### Scratch.vim ###
+
+Scratch.vim provides a 'scratch' buffer that you can use to keep temporary
+notes. For example, if you're doing development that touches on a strange API,
+you may want to paste some of the details (odd method names, etc.) into the
+scratch buffer so that they're on hand while you're working... but you don't
+have to worry about saving them anywhere. In `.vim/config/scratch.vim` the
+`<Leader>S` (note, that's Shift-s) keybinding is created to display the scratch
+buffer in a split window.
 
 ### SnipMate ###
 
