@@ -98,6 +98,7 @@
 :TlistUpdate	taglist.txt	/*:TlistUpdate*
 <Space>	space.txt	/*<Space>*
 AND	dbext.txt	/*AND*
+ANmenu	AsNeeded.txt	/*ANmenu*
 AddToLispWords	clojure.txt	/*AddToLispWords*
 Align-copyright	Align.txt	/*Align-copyright*
 CommandT	command-t.txt	/*CommandT*
@@ -121,8 +122,10 @@ JavadocLookupInteractive	clojure.txt	/*JavadocLookupInteractive*
 JavadocLookupWord	clojure.txt	/*JavadocLookupWord*
 MacroExpand	clojure.txt	/*MacroExpand*
 MacroExpand1	clojure.txt	/*MacroExpand1*
+MakeANtags	AsNeeded.txt	/*MakeANtags*
 MetaLookupInteractive	clojure.txt	/*MetaLookupInteractive*
 MetaLookupWord	clojure.txt	/*MetaLookupWord*
+MkAsNeeded	AsNeeded.txt	/*MkAsNeeded*
 NERDComAbout	NERD_commenter.txt	/*NERDComAbout*
 NERDComAlignedComment	NERD_commenter.txt	/*NERDComAlignedComment*
 NERDComAltDelim	NERD_commenter.txt	/*NERDComAltDelim*
@@ -341,6 +344,12 @@ alignusage	Align.txt	/*alignusage*
 any-item-example	yankring.txt	/*any-item-example*
 asa	dbext.txt	/*asa*
 ase	dbext.txt	/*ase*
+asneeded	AsNeeded.txt	/*asneeded*
+asneeded-contents	AsNeeded.txt	/*asneeded-contents*
+asneeded-copyright	AsNeeded.txt	/*asneeded-copyright*
+asneeded-history	AsNeeded.txt	/*asneeded-history*
+asneeded-var	AsNeeded.txt	/*asneeded-var*
+asneeded.txt	AsNeeded.txt	/*asneeded.txt*
 aw	clojure.txt	/*aw*
 bufexplorer	bufexplorer.txt	/*bufexplorer*
 bufexplorer-changelog	bufexplorer.txt	/*bufexplorer-changelog*
@@ -495,6 +504,8 @@ fugitive-revision	fugitive.txt	/*fugitive-revision*
 fugitive-statusline	fugitive.txt	/*fugitive-statusline*
 fugitive-~	fugitive.txt	/*fugitive-~*
 fugitive.txt	fugitive.txt	/*fugitive.txt*
+g:AsNeededAutoMake	AsNeeded.txt	/*g:AsNeededAutoMake*
+g:AsNeededSuccess	AsNeeded.txt	/*g:AsNeededSuccess*
 g:bufExplorerDefaultHelp	bufexplorer.txt	/*g:bufExplorerDefaultHelp*
 g:bufExplorerDetailedHelp	bufexplorer.txt	/*g:bufExplorerDetailedHelp*
 g:bufExplorerFindActive	bufexplorer.txt	/*g:bufExplorerFindActive*
