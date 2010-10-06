@@ -1,1 +1,0 @@
-../external/vim-space/plugin/space.vim
