@@ -41,27 +41,36 @@ Though you'll probably want to just examine this vim config to see what I've use
 
 Currently, this vim configuration ships with the following plugins:
 
-* [BufExplorer](http://www.vim.org/scripts/script.php?script_id=42 "BufExplorer at
-  vim.org")
+* [Ack.vim](http://github.com/mileszs/ack.vim "Ack.vim at github")
+* [AsNeeded](http://github.com/vim-scripts/AsNeeded "AsNeeded at github")
+* [AutoClose](http://github.com/Townk/vim-autoclose "Autoclose at github")
+* [BufExplorer](http://github.com/vim-scripts/bufexplorer.zip "BufExplorer at
+  github")
 * [BufOnly](http://github.com/duff/vim-bufonly "BufOnly at github")
-* [Command-T](http://www.vim.org/scripts/script.php?script_id=3025 "Command-T at
-  vim.org")
-* [Conque](http://code.google.com/p/conque/ "Conque at Google Code")
+* [CamelCaseMotion](http://github.com/vim-scripts/camelcasemotion
+  "CamelCaseMotion at github")
+* [Command-T](http://github.com/wincent/Command-T "Command-T at github")
+* [Conque](http://github.com/rson/vim-conque "Conque at github")
+* [dbext](http://github.com/vim-scripts/dbext.vim "dbext at github")
 * [Endwise](http://github.com/tpope/vim-endwise "vim-endwise at github")
 * [Fugitive](http://github.com/tpope/vim-fugitive "vim-fugitive at github")
-* [Gist.vim](http://www.vim.org/scripts/script.php?script_id=2423 "gist.vim at
-  vim.org")
+* [Gist.vim](http://github.com/vim-scripts/Gist.vim "gist.vim at github")
 * [NERDCommenter](http://github.com/scrooloose/nerdcommenter "nerdcommenter at
   github")
 * [NERDTree](http://github.com/scrooloose/nerdtree "nerdtree at github")
 * [Rails.vim](http://github.com/tpope/vim-rails "vim-rails at github")
+* [Rake.vim](http://github.com/tpope/vim-rake "vim-rake at github")
+* [Repeat.vim](http://github.com/tpope/vim-repeat "repeat at github")
+* [Rvm.vim](http://github.com/csexton/rvm.vim "rvm.vim at github")
+* [Scratch.vim](http://github.com/vim-scripts/scratch.vim "scratch.vim at
+  github")
+* [Snipmate.vim](http://github.com/msanders/snipmate.vim "snipmate.vim at
+  github")
 * [Space.vim](http://github.com/spiiph/vim-space "vim-space at github")
-* [SuperTab Continued](http://www.vim.org/scripts/script.php?script_id=1643
-  "SuperTab Continued at vim.org")
 * [Surround.vim](http://github.com/tpope/vim-surround "vim-surround at github")
 * [Syntastic](http://github.com/scrooloose/syntastic "syntastic at github")
-* [YankRing](http://www.vim.org/scripts/script.php?script_id=1234 "yankring at
-  vim.org")
+* [TailMinusF](http://github.com/vim-scripts/TailMinusF "tailminusf at github")
+* [YankRing](http://github.com/chrismetcalf/vim-yankring "yankring at github")
 
 It also contains a few special syntax files:
 

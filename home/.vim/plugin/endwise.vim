@@ -1,1 +1,0 @@
-../external/endwise/plugin/endwise.vim
