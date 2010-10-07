@@ -41,7 +41,7 @@ try it out yourself. That's cool. Here's how:
 5. Done.
 6. ...unless you want to use command-T, which requires that you build some
    stuff first.
-7. `cd ~/.vim/ruby/command-t && ruby extconf.rb && make`
+7. `cd ~/.vim/bundle/commandT/ruby/command-t && ruby extconf.rb && make`
    takes care of that, though.
 ## FEATURES ##
 
@@ -86,8 +86,11 @@ up-to-date on the latest developments.
 
 ## STRUCTURE ##
 
-All plugins, syntax files, etc. are stored in the 'usual' place. There are three
-'custom' folders, though, that you should be aware of.
+This vim config makes use of Tim Pope's pathogen plugin, which allows all other
+plugins to be split into their own individual folders rather than jumbled
+together in vim's default locations. This means that if you want to copy this
+config but don't like a few of the plugins, you can very easily identify what
+needs to be removed.
 
 * bundle - this is the special folder pathogen uses to store plugins.
 * external - any submodules that aren't kept in bundle will go here. As of right
