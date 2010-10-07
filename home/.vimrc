@@ -4,10 +4,6 @@
 " don't try to play nice with vi
 set nocompatible
 
-" turn on all filetype settings, syntax, etc.
-filetype plugin indent on
-syntax on
-
 " allow buffers to be hidden when they're not saved
 set hidden
 
@@ -33,6 +29,15 @@ let mapleader = ";"
 " I - don't give the intro message when starting Vim.
 set shortmess=filmnrxtTI
 
+" turn filetype settings off so that stuff gets loaded from pathogen
+filetype off
+
+" use pathogen to load plugins/etc.
+call pathogen#runtime_append_all_bundles()
+
+" turn on all filetype settings, syntax, etc.
+filetype plugin indent on
+syntax on
 
 " load everything else in its own config file
 runtime! config/**/*

@@ -1,1 +1,0 @@
-../external/syntastic/doc/syntastic.txt

@@ -21,90 +21,80 @@ someone to Vim, I want to be able to say "go through the vim tutorial, then copy
 my config, read the README, and you'll be good to go." So I've tried to be
 explicit here, but you shouldn't expect to pick this config up and run with it
 if you've never used Vim before - go through the vim tutorial (`:help vimtutor`)
-   first, at least. :)
-
+first, at least. :)
+      
 ## INSTALLATION ##
+      
+Though you'll probably want to just examine this vim config to see what
+I've used, if you're TOTALLY new to vim, you might want to install it and
+try it out yourself. That's cool. Here's how:
 
-Though you'll probably want to just examine this vim config to see what I've used, if you're TOTALLY new to vim, you might want to install it and try it out yourself. That's cool. Here's how:
-
-1. Fork this repository (so you have your own copy for when you want to make changes).
-2. Install the homesick gem (this makes it really easy): `sudo gem install homesick`
-3. Install your copy of the vim\_config repository using homesick: `homesick clone your_github_username/vim_config` (assuming you cloned it on github)
-4. Symlink it using homesick: `homesick symlink your_github_username/vim_config`
+1. Fork this repository (so you have your own copy for when you want to
+   make changes).
+2. Install the homesick gem (this makes it really easy): `sudo gem
+   install homesick`
+3. Install your copy of the vim\_config repository using homesick:
+   `homesick clone your_github_username/vim_config` (assuming you
+   cloned it on github)
+4. Symlink it using homesick: `homesick symlink
+   your_github_username/vim_config`
 5. Done.
 6. ...unless you want to use command-T, which requires that you build some
    stuff first.
-7. `cd ~/.vim/ruby/command-t && ruby extconf.rb && make` takes care of that,
-   though.
-
+7. `cd ~/.vim/bundle/commandT/ruby/command-t && ruby extconf.rb && make`
+   takes care of that, though.
 ## FEATURES ##
 
 Currently, this vim configuration ships with the following plugins:
 
-* [Ack.vim](http://www.vim.org/scripts/script.php?script_id=2572 "Ack.vim at
-  vim.org")
-* [Align.vim](http://www.vim.org/scripts/script.php?script_id=294 "Align.vim at
-  vim.org")
-* [AsNeeded](http://www.vim.org/scripts/script.php?script_id=915 "AsNeeded at
-  vim.org")
-* [AutoClose](http://www.vim.org/scripts/script.php?script_id=1849 "AutoClose at
-  vim.org")
-* [BufExplorer](http://www.vim.org/scripts/script.php?script_id=42 "BufExplorer at
-  vim.org")
+* [Ack.vim](http://github.com/mileszs/ack.vim "Ack.vim at github")
+* [AsNeeded](http://github.com/vim-scripts/AsNeeded "AsNeeded at github")
+* [AutoClose](http://github.com/Townk/vim-autoclose "Autoclose at github")
+* [BufExplorer](http://github.com/vim-scripts/bufexplorer.zip "BufExplorer at
+  github")
 * [BufOnly](http://github.com/duff/vim-bufonly "BufOnly at github")
-* [CamelCaseMotion](http://www.vim.org/scripts/script.php?script_id=1905
-  "CamelCaseMotion at vim.org")
-* [Command-T](http://www.vim.org/scripts/script.php?script_id=3025 "Command-T at
-  vim.org")
-* [Conque](http://code.google.com/p/conque/ "Conque at Google Code")
-* [dbext.vim](http://www.vim.org/scripts/script.php?script_id=356 "dbext at
-  vim.org")
+* [CamelCaseMotion](http://github.com/vim-scripts/camelcasemotion
+  "CamelCaseMotion at github")
+* [Command-T](http://github.com/wincent/Command-T "Command-T at github")
+* [Conque](http://github.com/rson/vim-conque "Conque at github")
+* [dbext](http://github.com/vim-scripts/dbext.vim "dbext at github")
 * [Endwise](http://github.com/tpope/vim-endwise "vim-endwise at github")
 * [Fugitive](http://github.com/tpope/vim-fugitive "vim-fugitive at github")
-* [Gist.vim](http://www.vim.org/scripts/script.php?script_id=2423 "gist.vim at
-  vim.org")
+* [Gist.vim](http://github.com/vim-scripts/Gist.vim "gist.vim at github")
 * [NERDCommenter](http://github.com/scrooloose/nerdcommenter "nerdcommenter at
   github")
 * [NERDTree](http://github.com/scrooloose/nerdtree "nerdtree at github")
-* [Rake.vim](http://github.com/tpope/vim-rake "vim-rake at github")
 * [Rails.vim](http://github.com/tpope/vim-rails "vim-rails at github")
-* [repeat.vim](http://www.vim.org/scripts/script.php?script_id=2136 "repeat.vim
-  at vim.org")
-* [rvm.vim](http://www.vim.org/scripts/script.php?script_id=3134 "rvm.vim at
-  vim.org")
-* [Scratch.vim](http://www.vim.org/scripts/script.php?script_id=664 "scratch.vim
-  at vim.org")
-* [SnipMate](http://www.vim.org/scripts/script.php?script_id=2540
-  "SnipMate at vim.org")
+* [Rake.vim](http://github.com/tpope/vim-rake "vim-rake at github")
+* [Repeat.vim](http://github.com/tpope/vim-repeat "repeat at github")
+* [Rvm.vim](http://github.com/csexton/rvm.vim "rvm.vim at github")
+* [Scratch.vim](http://github.com/vim-scripts/scratch.vim "scratch.vim at
+  github")
+* [Snipmate.vim](http://github.com/msanders/snipmate.vim "snipmate.vim at
+  github")
 * [Space.vim](http://github.com/spiiph/vim-space "vim-space at github")
 * [Surround.vim](http://github.com/tpope/vim-surround "vim-surround at github")
 * [Syntastic](http://github.com/scrooloose/syntastic "syntastic at github")
-* [TailMinusF](http://www.vim.org/scripts/script.php?script_id=1374 "TailMinusF
-  at vim.org")
-* [VimClojure](http://kotka.de/projects/clojure/vimclojure.html "VimClojure at
-  kotka.de")
-* [YankRing](http://www.vim.org/scripts/script.php?script_id=1234 "yankring at
-  vim.org")
-
-It also contains a few special syntax files:
-
-* Haml/Sass
-* Markdown
+* [TailMinusF](http://github.com/vim-scripts/TailMinusF "tailminusf at github")
+* [YankRing](http://github.com/chrismetcalf/vim-yankring "yankring at github")
 
 You can follow the links above to see the original source of each included
 plugin, but I've also described them later in this document.
 
-Where possible, each plugin is pulled in as a git submodule, so you can stay
-up-to-date on the latest developments. Sometimes this isn't possible, though, so
-be sure to check vim.org for the latest versions of plugins.
+Each plugin is pulled in as a git submodule, so you can stay
+up-to-date on the latest developments.
 
 ## STRUCTURE ##
 
-All plugins, syntax files, etc. are stored in the 'usual' place. There are three
-'custom' folders, though, that you should be aware of.
+This vim config makes use of Tim Pope's pathogen plugin, which allows all other
+plugins to be split into their own individual folders rather than jumbled
+together in vim's default locations. This means that if you want to copy this
+config but don't like a few of the plugins, you can very easily identify what
+needs to be removed.
 
-* external - the external folder is where all the git-submodules are stored, for
-  plugins that are kept on github.
+* bundle - this is the special folder pathogen uses to store plugins.
+* external - any submodules that aren't kept in bundle will go here. As of right
+  now, pathogen is the only thing here.
 * config - this is where all the custom config files are kept. If you look in
   the vimrc file, you'll see where everything in this folder is loaded
   recursively (even subfolders, if you're obsessive about organizing your config
@@ -159,25 +149,6 @@ Ack is better than grep. Ack.vim lets you use Ack to search in the current
 directory. It then loads the results into Vim's "quickfix" window for easy
 browsing. `<Leader>A` (note that's Shift-a) is configured to bring Ack up ready to search in
 `.vim/config/ack.vim`.
-
-### Align.vim ###
-
-Align.vim provides an easy way to 'prettify' code statements. e.g., instead of
-
-    a = b
-    abc = 123
-    foobar = "totally"
-
-You could execute a simple command and have:
-
-    a      = b
-    abc    = 123
-    foobar = "totally"
-
-Whether or not that looks better to you is, of course, completely subjective :)
-Check out the help file (`:help align`) for more details. One thing to note,
-though, is that I explicitly do not include the default keybindings for
-Align.vim, as they're kind of silly and conflict with other plugins.
 
 ### AsNeeded ###
 
@@ -381,13 +352,6 @@ a similar fashion to the UNIX command `tail -f` (hence the name). This is mostly
 included as a dependency to Rails.vim, but you can use it on its own via the
 `:Tail` command.
 
-### VimClojure ###
-
-VimClojure provides some syntax coloring, etc. for the Clojure language. It can
-also provide a lot more if you want to set up a server that it can communicate
-to. I don't, so the setup here is pretty simple. Check the website for
-instructions if you're curious on what else it can do, though.
-
 ### YankRing ###
 
 YankRing adds the equivalent of Emacs' "Kill Ring" to Vim. It wraps Vim's
@@ -399,3 +363,4 @@ Vim.
 
 You can also view the configuration I've set up by examining
 `vim/config/yankring.vim`.
+

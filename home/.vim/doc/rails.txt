@@ -1,1 +1,0 @@
-../external/vim-rails/doc/rails.txt
