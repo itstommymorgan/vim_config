@@ -21,22 +21,28 @@ someone to Vim, I want to be able to say "go through the vim tutorial, then copy
 my config, read the README, and you'll be good to go." So I've tried to be
 explicit here, but you shouldn't expect to pick this config up and run with it
 if you've never used Vim before - go through the vim tutorial (`:help vimtutor`)
-   first, at least. :)
-
+first, at least. :)
+      
 ## INSTALLATION ##
+      
+Though you'll probably want to just examine this vim config to see what
+I've used, if you're TOTALLY new to vim, you might want to install it and
+try it out yourself. That's cool. Here's how:
 
-Though you'll probably want to just examine this vim config to see what I've used, if you're TOTALLY new to vim, you might want to install it and try it out yourself. That's cool. Here's how:
-
-1. Fork this repository (so you have your own copy for when you want to make changes).
-2. Install the homesick gem (this makes it really easy): `sudo gem install homesick`
-3. Install your copy of the vim_config repository using homesick: `homesick clone your_github_username/vim_config` (assuming you cloned it on github)
-4. Symlink it using homesick: `homesick symlink your_github_username/vim_config`
+1. Fork this repository (so you have your own copy for when you want to
+   make changes).
+2. Install the homesick gem (this makes it really easy): `sudo gem
+   install homesick`
+3. Install your copy of the vim\_config repository using homesick:
+   `homesick clone your_github_username/vim_config` (assuming you
+   cloned it on github)
+4. Symlink it using homesick: `homesick symlink
+   your_github_username/vim_config`
 5. Done.
 6. ...unless you want to use command-T, which requires that you build some
    stuff first.
-7. `cd ~/.vim/ruby/command-t && ruby extconf.rb && make` takes care of that,
-   though.
-
+7. `cd ~/.vim/ruby/command-t && ruby extconf.rb && make`
+   takes care of that, though.
 ## FEATURES ##
 
 Currently, this vim configuration ships with the following plugins:
@@ -72,25 +78,20 @@ Currently, this vim configuration ships with the following plugins:
 * [TailMinusF](http://github.com/vim-scripts/TailMinusF "tailminusf at github")
 * [YankRing](http://github.com/chrismetcalf/vim-yankring "yankring at github")
 
-It also contains a few special syntax files:
-
-* Haml/Sass
-* Markdown
-
 You can follow the links above to see the original source of each included
 plugin, but I've also described them later in this document.
 
-Where possible, each plugin is pulled in as a git submodule, so you can stay
-up-to-date on the latest developments. Sometimes this isn't possible, though, so
-be sure to check vim.org for the latest versions of plugins.
+Each plugin is pulled in as a git submodule, so you can stay
+up-to-date on the latest developments.
 
 ## STRUCTURE ##
 
 All plugins, syntax files, etc. are stored in the 'usual' place. There are three
 'custom' folders, though, that you should be aware of.
 
-* external - the external folder is where all the git-submodules are stored, for
-  plugins that are kept on github.
+* bundle - this is the special folder pathogen uses to store plugins.
+* external - any submodules that aren't kept in bundle will go here. As of right
+  now, pathogen is the only thing here.
 * config - this is where all the custom config files are kept. If you look in
   the vimrc file, you'll see where everything in this folder is loaded
   recursively (even subfolders, if you're obsessive about organizing your config
@@ -139,12 +140,28 @@ All plugins, syntax files, etc. are stored in the 'usual' place. There are three
 
 ## PLUGINS ##
 
+### Ack.vim ###
+
+Ack is better than grep. Ack.vim lets you use Ack to search in the current
+directory. It then loads the results into Vim's "quickfix" window for easy
+browsing. `<Leader>A` (note that's Shift-a) is configured to bring Ack up ready to search in
+`.vim/config/ack.vim`.
+
+### AsNeeded ###
+
+AsNeeded allows plugins, bindings, functions, etc. to be loaded on a (surprise!)
+as-needed basis. Its biggest advantage is that it reduces the initial load time
+for vim - in my case by somewhere around 66%.
+If you add any new plugins, you'll want to be sure to run the `:MkAsNeeded`
+command so that they get parsed.
+
 ### AutoClose ###
 
 Autoclose monitors when you type paired characters (like `"`, `(`, etc.) and
 automatically places the closing character for you. e.g. you can type `"` and
 autoclose will automatically change it to `"|"` (where the '|' in this case
-represents your cursor location).
+represents your cursor location). If you don't want to use autoclose in
+a certain situation, you can use the `<Leader>a` binding to toggle it.
 
 ### BufExplorer ###
 
@@ -162,11 +179,19 @@ Useful for when you've got a bunch of buffers open that aren't pertinent any
 more (e.g. you're switching to a different project now, etc.). I've mapped the
 BufOnly command to the `<Leader>bo` keychain.
 
+### CamelCaseMotion ###
+
+CamelCaseMotion defines keybindings for motions that work on camel-case words
+(and underscore-separated words). e.g., by default, `w` goes to the end of the
+word, even if that word is CamelCasedLikeThis. Using CamelCaseMotion, you can
+use `,w` to move to the next part of the CamelCasedWord. `:help camelcasemotion`
+for more information.
+
 ### Command-T ###
 
 In the Mac OS X application TextMate, you can use Cmd-t to do a 'fuzzy' search
 for files in your current working directory. Command-T is a plugin that duplicates
-   this functionality - using <Leader>t by default. Just start typing and you'll see it in
+   this functionality - using `<Leader>t` by default. Just start typing and you'll see it in
    action. The config settings I've made are in `vim\config\commandt.vim`.
 
 ### Conque ###
@@ -182,6 +207,12 @@ horizontally-split window):
 * `<Leader>si` - this starts `irb` in a new buffer.
 * `<Leader>sx` - this starts... whatever you want :) it prompts you to enter the
   executable you want to run, and then starts it in a new buffer.
+
+### dbext.vim ###
+
+Dbext is a very powerful plugin that provides database integration with vim. For
+the most part, this is included because Rails.vim plays very nicely with it, but
+you can also use it on its own if you prefer.
 
 ### Endwise ###
 
@@ -238,6 +269,12 @@ NERDTree`, or simply press `?` while you're in the NERDTree buffer to see the
 list of keyboard shortcuts you can use. The configuration for NERDTree is
 present in `vim/config/nerdtree.vim`.
 
+### Rake.vim ###
+
+Rake.vim provides some of the nicer functionality from Rails.vim but for any
+ruby project, not just those that make use of Rails. `:help rake` for more
+information.
+
 ### Rails.vim ###
 
 Rails.vim provides a lot of nice functionality for working with Rails
@@ -249,18 +286,45 @@ I've made a couple of config changes to rails.vim (mostly changing the automatic
 2-space setting that it uses for indentation, since I'm required to use 3 spaces
 at work), which can be found in `vim/config/rails.vim`.
 
+### repeat.vim ###
+
+Vim comes with a native 'repeat' operator - the `.` key will repeat the last
+action executed. The problem is, this doesn't work for most plugins - if you hit
+`.` after executing something with surround.vim, for example, only the last
+_native_ command will be repeated (not the whole process, like you wanted).
+Repeat.vim provides a way for plugins to hook into the `.` binding and use it
+correctly. Currently, only surround.vim provides support for this, but hopefully
+others will soon.
+
+### rvm.vim ###
+
+rvm.vim allows you to place an indicator in your status line that determines
+which Ruby/Gemset you're currently using through RVM (the Ruby Version Manager).
+Although I highly recommend using RVM if you're a Rubyist, you can simply remove
+rvm.vim if you don't find this helpful.
+
+### Scratch.vim ###
+
+Scratch.vim provides a 'scratch' buffer that you can use to keep temporary
+notes. For example, if you're doing development that touches on a strange API,
+you may want to paste some of the details (odd method names, etc.) into the
+scratch buffer so that they're on hand while you're working... but you don't
+have to worry about saving them anywhere. In `.vim/config/scratch.vim` the
+`<Leader>S` (note, that's Shift-s) keybinding is created to display the scratch
+buffer in a split window.
+
+### SnipMate ###
+
+SnipMate gives you snippets - pieces of often typed text you can insert into
+your document using a trigger word. Checkout the help files (`:help snipmate`)
+or view the plugin's website at vim.org for more specifics.
+
 ### Space.vim ###
 
 Space.vim allows you to use the <Space> key as a repeat key for some complex
 motion commands (most notably for me, searching - I can search for something and
 then hit space to move forward and shift-space to move backwards through the
 results). Run `:help space-intro` to read up on it.
-
-### SuperTab Cont. ###
-
-This plugin gives you tab-completion in insert mode, which is pretty awesome.
-It can be a lot more complicated than that - run `:help supertab` to go down the
-rabbit-hole if you'd like.
 
 ### Surround.vim ###
 
@@ -278,6 +342,13 @@ any errors/warnings it finds. You can check the helpfile for it at `:help
 syntastic`, and see the configuration settings I use in
 `vim/config/syntastic.vim`.
 
+### TailMinusF ###
+
+TailMinusF allows you to open a buffer that watches the contents of a file in
+a similar fashion to the UNIX command `tail -f` (hence the name). This is mostly
+included as a dependency to Rails.vim, but you can use it on its own via the
+`:Tail` command.
+
 ### YankRing ###
 
 YankRing adds the equivalent of Emacs' "Kill Ring" to Vim. It wraps Vim's
@@ -289,3 +360,4 @@ Vim.
 
 You can also view the configuration I've set up by examining
 `vim/config/yankring.vim`.
+
