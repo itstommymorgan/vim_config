@@ -118,6 +118,7 @@ needs to be removed.
   between windows if preceded by Ctrl-W. I do this often enough (and hate
   hitting Ctrl enough) that I've created bindings to do this with the mapleader:
   `<Leader>h`,`<Leader>j`,`<Leader>k`, and `<Leader>l`.
+* Control-k and Control-j are mapped to move lines up/down.
 * In a similar fashion, I've created bindings for `:w!` and `:q!` : `<Leader>w`
   and `<Leader>q`.
 * Every once in a while I open a file that I don't have write access to (a file
