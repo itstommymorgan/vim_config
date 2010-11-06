@@ -79,3 +79,6 @@
 [submodule "home/.vim/bundle/ack"]
 	path = home/.vim/bundle/ack
 	url = http://github.com/mileszs/ack.vim.git
+[submodule "home/.vim/bundle/vimoutliner"]
+	path = home/.vim/bundle/vimoutliner
+	url = http://github.com/Raimondi/vimoutliner.git

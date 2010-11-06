@@ -76,6 +76,7 @@ Currently, this vim configuration ships with the following plugins:
 * [Surround.vim](http://github.com/tpope/vim-surround "vim-surround at github")
 * [Syntastic](http://github.com/scrooloose/syntastic "syntastic at github")
 * [TailMinusF](http://github.com/vim-scripts/TailMinusF "tailminusf at github")
+* [VimOutliner](https://github.com/Raimondi/vimoutliner "vimoutliner at github")
 * [YankRing](http://github.com/chrismetcalf/vim-yankring "yankring at github")
 
 You can follow the links above to see the original source of each included
@@ -352,6 +353,13 @@ TailMinusF allows you to open a buffer that watches the contents of a file in
 a similar fashion to the UNIX command `tail -f` (hence the name). This is mostly
 included as a dependency to Rails.vim, but you can use it on its own via the
 `:Tail` command.
+
+### VimOutliner ###
+
+VimOutliner is a tool for creating outlines (.otl files). It's got some neat
+features, including automatically calculating the completion percentage of
+a given outline. There's a handy cheatsheet
+[here](http://sites.google.com/site/vimoutlinerinfo/vimoutliner-cheat-sheet).
 
 ### YankRing ###
 
