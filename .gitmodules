@@ -1,84 +1,84 @@
 [submodule "home/.vim/external/vim-pathogen"]
 	path = home/.vim/external/vim-pathogen
-	url = http://github.com/tpope/vim-pathogen.git
+	url = git://github.com/tpope/vim-pathogen.git
 [submodule "home/.vim/bundle/nerdtree"]
 	path = home/.vim/bundle/nerdtree
-	url = http://github.com/scrooloose/nerdtree.git
+	url = git://github.com/scrooloose/nerdtree.git
 [submodule "home/.vim/bundle/yankring"]
 	path = home/.vim/bundle/yankring
-	url = http://github.com/chrismetcalf/vim-yankring.git
+	url = git://github.com/chrismetcalf/vim-yankring.git
 [submodule "home/.vim/bundle/tailminusf"]
 	path = home/.vim/bundle/tailminusf
-	url = http://github.com/vim-scripts/TailMinusF.git
+	url = git://github.com/vim-scripts/TailMinusF.git
 [submodule "home/.vim/bundle/syntastic"]
 	path = home/.vim/bundle/syntastic
-	url = http://github.com/scrooloose/syntastic.git
+	url = git://github.com/scrooloose/syntastic.git
 [submodule "home/.vim/bundle/surround"]
 	path = home/.vim/bundle/surround
-	url = http://github.com/tpope/vim-surround.git
+	url = git://github.com/tpope/vim-surround.git
 [submodule "home/.vim/bundle/space"]
 	path = home/.vim/bundle/space
-	url = http://github.com/spiiph/vim-space.git
+	url = git://github.com/spiiph/vim-space.git
 [submodule "home/.vim/bundle/snipmate"]
 	path = home/.vim/bundle/snipmate
-	url = http://github.com/msanders/snipmate.vim.git
+	url = git://github.com/msanders/snipmate.vim.git
 [submodule "home/.vim/bundle/scratch"]
 	path = home/.vim/bundle/scratch
-	url = http://github.com/vim-scripts/scratch.vim.git
+	url = git://github.com/vim-scripts/scratch.vim.git
 [submodule "home/.vim/bundle/rvm"]
 	path = home/.vim/bundle/rvm
-	url = http://github.com/csexton/rvm.vim.git
+	url = git://github.com/csexton/rvm.vim.git
 [submodule "home/.vim/repeat"]
 	path = home/.vim/bundle/repeat
-	url = http://github.com/tpope/vim-repeat.git
+	url = git://github.com/tpope/vim-repeat.git
 [submodule "home/.vim/bundle/rails"]
 	path = home/.vim/bundle/rails
-	url = http://github.com/tpope/vim-rails.git
+	url = git://github.com/tpope/vim-rails.git
 [submodule "home/.vim/bundle/rake"]
 	path = home/.vim/bundle/rake
-	url = http://github.com/tpope/vim-rake.git
+	url = git://github.com/tpope/vim-rake.git
 [submodule "home/.vim/bundle/nerdcommenter"]
 	path = home/.vim/bundle/nerdcommenter
-	url = http://github.com/scrooloose/nerdcommenter.git
+	url = git://github.com/scrooloose/nerdcommenter.git
 [submodule "home/.vim/bundle/gist"]
 	path = home/.vim/bundle/gist
-	url = http://github.com/vim-scripts/Gist.vim.git
+	url = git://github.com/vim-scripts/Gist.vim.git
 [submodule "home/.vim/bundle/fugitive"]
 	path = home/.vim/bundle/fugitive
-	url = http://github.com/tpope/vim-fugitive.git
+	url = git://github.com/tpope/vim-fugitive.git
 [submodule "home/.vim/bundle/endwise"]
 	path = home/.vim/bundle/endwise
-	url = http://github.com/tpope/vim-endwise.git
+	url = git://github.com/tpope/vim-endwise.git
 [submodule "home/.vim/bundle/dbext"]
 	path = home/.vim/bundle/dbext
-	url = http://github.com/vim-scripts/dbext.vim.git
+	url = git://github.com/vim-scripts/dbext.vim.git
 [submodule "home/.vim/bundle/conque"]
 	path = home/.vim/bundle/conque
-	url = http://github.com/rson/vim-conque.git
+	url = git://github.com/rson/vim-conque.git
 [submodule "home/.vim/bundle/commandT"]
 	path = home/.vim/bundle/commandT
-	url = http://github.com/wincent/Command-T.git
+	url = git://github.com/wincent/Command-T.git
 [submodule "home/.vim/bundle/camelcasemotion"]
 	path = home/.vim/bundle/camelcasemotion
-	url = http://github.com/vim-scripts/camelcasemotion.git
+	url = git://github.com/vim-scripts/camelcasemotion.git
 [submodule "home/.vim/bundle/bufonly"]
 	path = home/.vim/bundle/bufonly
-	url = http://github.com/duff/vim-bufonly.git
+	url = git://github.com/duff/vim-bufonly.git
 [submodule "home/.vim/bundle/bufexplorer"]
 	path = home/.vim/bundle/bufexplorer
-	url = http://github.com/vim-scripts/bufexplorer.zip.git
+	url = git://github.com/vim-scripts/bufexplorer.zip.git
 [submodule "home/.vim/bundle/autoclose"]
 	path = home/.vim/bundle/autoclose
-	url = http://github.com/Townk/vim-autoclose.git
+	url = git://github.com/Townk/vim-autoclose.git
 [submodule "home/.vim/bundle/asneeded"]
 	path = home/.vim/bundle/asneeded
-	url = http://github.com/vim-scripts/AsNeeded.git
+	url = git://github.com/vim-scripts/AsNeeded.git
 [submodule "home/.vim/bundle/align"]
 	path = home/.vim/bundle/align
-	url = http://github.com/vim-scripts/Align.vim.git
+	url = git://github.com/vim-scripts/Align.vim.git
 [submodule "home/.vim/bundle/ack"]
 	path = home/.vim/bundle/ack
-	url = http://github.com/mileszs/ack.vim.git
+	url = git://github.com/mileszs/ack.vim.git
 [submodule "home/.vim/bundle/vimoutliner"]
 	path = home/.vim/bundle/vimoutliner
-	url = http://github.com/Raimondi/vimoutliner.git
+	url = git://github.com/Raimondi/vimoutliner.git

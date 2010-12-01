@@ -4,6 +4,13 @@
 "" settings, just 'global' ones.
 """"""""""""""""""""""""""""""""""""""""
 
+" fix arrow keys in console mode
+if has('gui_running')
+   " no need to mess with term
+else
+   set term=ansi
+endif
+
 " ;w saves a buffer
 map <Leader>w :w!<CR>
 
