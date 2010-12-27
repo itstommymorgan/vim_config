@@ -79,3 +79,12 @@
 [submodule "home/.vim/bundle/tailminusf"]
 	path = home/.vim/bundle/tailminusf
 	url = git://github.com/vim-scripts/TailMinusF.git
+[submodule "home/.vim/bundle/yankring"]
+	path = home/.vim/bundle/yankring
+	url = git://github.com/chrismetcalf/vim-yankring.git
+[submodule "home/.vim/bundle/vim-textobj-user"]
+	path = home/.vim/bundle/vim-textobj-user
+	url = git://github.com/kana/vim-textobj-user.git
+[submodule "home/.vim/bundle/vim-textobj-rubyblock"]
+	path = home/.vim/bundle/vim-textobj-rubyblock
+	url = git://github.com/nelstrom/vim-textobj-rubyblock.git
