@@ -40,9 +40,6 @@
 [submodule "home/.vim/bundle/nerdcommenter"]
 	path = home/.vim/bundle/nerdcommenter
 	url = http://github.com/scrooloose/nerdcommenter.git
-[submodule "home/.vim/bundle/gist"]
-	path = home/.vim/bundle/gist
-	url = http://github.com/vim-scripts/Gist.vim.git
 [submodule "home/.vim/bundle/fugitive"]
 	path = home/.vim/bundle/fugitive
 	url = http://github.com/tpope/vim-fugitive.git
@@ -82,3 +79,6 @@
 [submodule "home/.vim/bundle/camelcasemotion"]
 	path = home/.vim/bundle/camelcasemotion
 	url = git://github.com/vim-scripts/camelcasemotion.git
+[submodule "home/.vim/bundle/dbext"]
+	path = home/.vim/bundle/dbext
+	url = git://github.com/vim-scripts/dbext.vim.git
