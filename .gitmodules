@@ -58,9 +58,6 @@
 [submodule "home/.vim/bundle/commandT"]
 	path = home/.vim/bundle/commandT
 	url = http://github.com/wincent/Command-T.git
-[submodule "home/.vim/bundle/camelcasemotion"]
-	path = home/.vim/bundle/camelcasemotion
-	url = http://github.com/vim-scripts/camelcasemotion.git
 [submodule "home/.vim/bundle/bufonly"]
 	path = home/.vim/bundle/bufonly
 	url = http://github.com/duff/vim-bufonly.git
@@ -82,3 +79,6 @@
 [submodule "home/.vim/bundle/asneeded"]
 	path = home/.vim/bundle/asneeded
 	url = git://github.com/vim-scripts/AsNeeded.git
+[submodule "home/.vim/bundle/bufexplorer"]
+	path = home/.vim/bundle/bufexplorer
+	url = git://github.com/vim-scripts/bufexplorer.zip.git
