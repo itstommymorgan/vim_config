@@ -4,9 +4,6 @@
 [submodule "home/.vim/bundle/nerdtree"]
 	path = home/.vim/bundle/nerdtree
 	url = http://github.com/scrooloose/nerdtree.git
-[submodule "home/.vim/bundle/yankring"]
-	path = home/.vim/bundle/yankring
-	url = http://github.com/chrismetcalf/vim-yankring.git
 [submodule "home/.vim/bundle/syntastic"]
 	path = home/.vim/bundle/syntastic
 	url = http://github.com/scrooloose/syntastic.git
@@ -79,3 +76,6 @@
 [submodule "home/.vim/bundle/gist"]
 	path = home/.vim/bundle/gist
 	url = git://github.com/mattn/gist-vim.git
+[submodule "home/.vim/bundle/tailminusf"]
+	path = home/.vim/bundle/tailminusf
+	url = git://github.com/vim-scripts/TailMinusF.git
