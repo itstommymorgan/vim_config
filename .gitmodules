@@ -22,9 +22,6 @@
 [submodule "home/.vim/bundle/snipmate"]
 	path = home/.vim/bundle/snipmate
 	url = http://github.com/msanders/snipmate.vim.git
-[submodule "home/.vim/bundle/scratch"]
-	path = home/.vim/bundle/scratch
-	url = http://github.com/vim-scripts/scratch.vim.git
 [submodule "home/.vim/bundle/rvm"]
 	path = home/.vim/bundle/rvm
 	url = http://github.com/csexton/rvm.vim.git
@@ -82,3 +79,6 @@
 [submodule "home/.vim/bundle/dbext"]
 	path = home/.vim/bundle/dbext
 	url = git://github.com/vim-scripts/dbext.vim.git
+[submodule "home/.vim/bundle/gist"]
+	path = home/.vim/bundle/gist
+	url = git://github.com/mattn/gist-vim.git

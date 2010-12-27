@@ -68,8 +68,6 @@ Currently, this vim configuration ships with the following plugins:
 * [Rake.vim](http://github.com/tpope/vim-rake "vim-rake at github")
 * [Repeat.vim](http://github.com/tpope/vim-repeat "repeat at github")
 * [Rvm.vim](http://github.com/csexton/rvm.vim "rvm.vim at github")
-* [Scratch.vim](http://github.com/vim-scripts/scratch.vim "scratch.vim at
-  github")
 * [Snipmate.vim](http://github.com/msanders/snipmate.vim "snipmate.vim at
   github")
 * [Space.vim](http://github.com/spiiph/vim-space "vim-space at github")
@@ -307,16 +305,6 @@ rvm.vim allows you to place an indicator in your status line that determines
 which Ruby/Gemset you're currently using through RVM (the Ruby Version Manager).
 Although I highly recommend using RVM if you're a Rubyist, you can simply remove
 rvm.vim if you don't find this helpful.
-
-### Scratch.vim ###
-
-Scratch.vim provides a 'scratch' buffer that you can use to keep temporary
-notes. For example, if you're doing development that touches on a strange API,
-you may want to paste some of the details (odd method names, etc.) into the
-scratch buffer so that they're on hand while you're working... but you don't
-have to worry about saving them anywhere. In `.vim/config/scratch.vim` the
-`<Leader>S` (note, that's Shift-s) keybinding is created to display the scratch
-buffer in a split window.
 
 ### SnipMate ###
 
