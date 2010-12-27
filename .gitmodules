@@ -7,9 +7,6 @@
 [submodule "home/.vim/bundle/yankring"]
 	path = home/.vim/bundle/yankring
 	url = http://github.com/chrismetcalf/vim-yankring.git
-[submodule "home/.vim/bundle/tailminusf"]
-	path = home/.vim/bundle/tailminusf
-	url = http://github.com/vim-scripts/TailMinusF.git
 [submodule "home/.vim/bundle/syntastic"]
 	path = home/.vim/bundle/syntastic
 	url = http://github.com/scrooloose/syntastic.git
