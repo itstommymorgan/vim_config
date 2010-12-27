@@ -64,9 +64,6 @@
 [submodule "home/.vim/bundle/bufonly"]
 	path = home/.vim/bundle/bufonly
 	url = http://github.com/duff/vim-bufonly.git
-[submodule "home/.vim/bundle/bufexplorer"]
-	path = home/.vim/bundle/bufexplorer
-	url = http://github.com/vim-scripts/bufexplorer.zip.git
 [submodule "home/.vim/bundle/autoclose"]
 	path = home/.vim/bundle/autoclose
 	url = http://github.com/Townk/vim-autoclose.git
@@ -82,3 +79,6 @@
 [submodule "home/.vim/bundle/vim-textobj-comment"]
 	path = home/.vim/bundle/vim-textobj-comment
 	url = git://github.com/thinca/vim-textobj-comment.git
+[submodule "home/.vim/bundle/asneeded"]
+	path = home/.vim/bundle/asneeded
+	url = git://github.com/vim-scripts/AsNeeded.git
