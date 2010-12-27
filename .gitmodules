@@ -49,9 +49,6 @@
 [submodule "home/.vim/bundle/endwise"]
 	path = home/.vim/bundle/endwise
 	url = http://github.com/tpope/vim-endwise.git
-[submodule "home/.vim/bundle/dbext"]
-	path = home/.vim/bundle/dbext
-	url = http://github.com/vim-scripts/dbext.vim.git
 [submodule "home/.vim/bundle/conque"]
 	path = home/.vim/bundle/conque
 	url = http://github.com/rson/vim-conque.git
@@ -82,3 +79,6 @@
 [submodule "home/.vim/bundle/bufexplorer"]
 	path = home/.vim/bundle/bufexplorer
 	url = git://github.com/vim-scripts/bufexplorer.zip.git
+[submodule "home/.vim/bundle/camelcasemotion"]
+	path = home/.vim/bundle/camelcasemotion
+	url = git://github.com/vim-scripts/camelcasemotion.git
