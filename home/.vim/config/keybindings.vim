@@ -11,6 +11,12 @@ else
    set term=ansi
 endif
 
+" Edit another file in the same directory as the current file
+" uses expression to extract path from current file's path
+map <Leader>e :e <C-R>=expand("%:p:h") . '/'<CR>
+map <Leader>s :split <C-R>=expand("%:p:h") . '/'<CR>
+map <Leader>v :vnew <C-R>=expand("%:p:h") . '/'<CR>
+
 " ;w saves a buffer
 map <Leader>w :w!<CR>
 
