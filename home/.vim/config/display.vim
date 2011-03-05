@@ -3,7 +3,10 @@
 """""""""""""""""""""""""""""""""""""""""""""""""""
 
 " use the desert256 colorscheme (works better with console than zenburn)
-colorscheme desert256
+" colorscheme desert256
+" But I prefer vividchalk
+colorscheme vividchalk
+
 
 set laststatus=2   " always display a status line
 set number         " show line numbers
