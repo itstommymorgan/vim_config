@@ -16,6 +16,8 @@ set showmatch      " show matching bracket (briefly jump)
 set showmode       " display the current mode in the status bar
 set title          " show file in titlebar
 set scrolloff=10   " keep 10 lines of text above/below the cursor when near the top/bottom of buffer
+set cursorline     " highlight the current line in every window; may slow down redrawing for long lines or files
+set cursorcolumn   " highlight the current column in every window; may slow down redrawing for long lines or files
 
 " status bar
 set statusline+=%f\                                           " filename
