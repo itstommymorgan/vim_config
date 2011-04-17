@@ -3,7 +3,7 @@
 """""""""""""""""""""""""""""""""""""""""""""""""""
 
 " use the solarized colorscheme
-let g:solarized_style="dark"
+set background=dark
 colorscheme solarized
 
 set laststatus=2   " always display a status line
