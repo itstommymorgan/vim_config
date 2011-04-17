@@ -46,9 +46,6 @@
 [submodule "home/.vim/bundle/bufonly"]
 	path = home/.vim/bundle/bufonly
 	url = http://github.com/duff/vim-bufonly.git
-[submodule "home/.vim/bundle/autoclose"]
-	path = home/.vim/bundle/autoclose
-	url = http://github.com/Townk/vim-autoclose.git
 [submodule "home/.vim/bundle/align"]
 	path = home/.vim/bundle/align
 	url = http://github.com/vim-scripts/Align.vim.git
