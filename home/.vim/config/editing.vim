@@ -12,6 +12,8 @@ set backspace=indent,eol,start
 
 set whichwrap+=<,>,h,l   " cursor keys also wrap
 
+set listchars=tab:▸\ ,eol:¬,trail:☠
+
 " spaces instead of tabs
 " prefer 3 spaces
 set softtabstop=3
