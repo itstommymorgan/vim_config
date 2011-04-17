@@ -88,3 +88,9 @@
 [submodule "home/.vim/bundle/vim-textobj-rubyblock"]
 	path = home/.vim/bundle/vim-textobj-rubyblock
 	url = git://github.com/nelstrom/vim-textobj-rubyblock.git
+[submodule "home/.vim/bundle/vim-ruby-complexity"]
+	path = home/.vim/bundle/vim-ruby-complexity
+	url = git://github.com/skammer/vim-ruby-complexity.git
+[submodule "home/.vim/bundle/vim-colors-solarized"]
+	path = home/.vim/bundle/vim-colors-solarized
+	url = https://github.com/altercation/vim-colors-solarized
