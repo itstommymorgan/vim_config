@@ -4,13 +4,6 @@
 "" settings, just 'global' ones.
 """"""""""""""""""""""""""""""""""""""""
 
-" fix arrow keys in console mode
-if has('gui_running')
-   " no need to mess with term
-else
-   set term=ansi
-endif
-
 " ;w saves a buffer
 map <Leader>w :w!<CR>
 
@@ -44,3 +37,6 @@ noremap ' `
 noremap ` '
 
 nnoremap ;; :
+
+" use <Leader>C to display hidden chars
+map <Leader>C :set list!<CR>
