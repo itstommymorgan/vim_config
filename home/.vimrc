@@ -32,6 +32,9 @@ set shortmess=filmnrxtTI
 " turn filetype settings off so that stuff gets loaded from pathogen
 filetype off
 
+" stop dinging, please
+set noerrorbells
+
 " use pathogen to load plugins/etc.
 call pathogen#runtime_append_all_bundles()
 
