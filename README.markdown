@@ -48,6 +48,8 @@ try it out yourself. That's cool. Here's how:
 Currently, this vim configuration ships with the following plugins:
 
 * [Ack.vim](http://github.com/mileszs/ack.vim "Ack.vim at github")
+* [Align.vim](http://www.vim.org/scripts/script.php?script_id=294 "Align.vim at
+  vim.org")
 * [AsNeeded](http://github.com/vim-scripts/AsNeeded "AsNeeded at github")
 * [AutoClose](http://github.com/Townk/vim-autoclose "Autoclose at github")
 * [BufExplorer](http://github.com/vim-scripts/bufexplorer.zip "BufExplorer at
@@ -68,6 +70,8 @@ Currently, this vim configuration ships with the following plugins:
 * [Rake.vim](http://github.com/tpope/vim-rake "vim-rake at github")
 * [Repeat.vim](http://github.com/tpope/vim-repeat "repeat at github")
 * [Rvm.vim](http://github.com/csexton/rvm.vim "rvm.vim at github")
+* [Solarized](https://github.com/altercation/vim-colors-solarized
+  "vim-colors-solarized at github")
 * [Snipmate.vim](http://github.com/msanders/snipmate.vim "snipmate.vim at
   github")
 * [Space.vim](http://github.com/spiiph/vim-space "vim-space at github")
@@ -149,6 +153,22 @@ Ack is better than grep. Ack.vim lets you use Ack to search in the current
 directory. It then loads the results into Vim's "quickfix" window for easy
 browsing. `<Leader>A` (note that's Shift-a) is configured to bring Ack up ready to search in
 `.vim/config/ack.vim`.
+
+### Align.vim ###
+
+Align.vim is an interesting plugin that allows you to auto-format lines so that
+they are all aligned on a given separator. As an example, given the lines:
+    itemA = itemB
+    item12345 = item23456
+    someCrazyCamelCasedJavaStuff = some_underscored_stuff_instead
+
+You can run (assuming they're at the top of the file) the command `1,3Align=` to
+get:
+    itemA                        = itemB
+    item12345                    = item23456
+    someCrazyCamelCasedJavaStuff = some_underscored_stuff_instead
+
+Whether or not you prefer to write your code this way is, of course, up to you.
 
 ### AsNeeded ###
 
@@ -311,6 +331,15 @@ rvm.vim if you don't find this helpful.
 SnipMate gives you snippets - pieces of often typed text you can insert into
 your document using a trigger word. Checkout the help files (`:help snipmate`)
 or view the plugin's website at vim.org for more specifics.
+
+### Solarized ###
+
+Solarized is a "precision color scheme" that I've started using, and I really
+enjoy it. You can read more about it
+[here](http://ethanschoonover.com/solarized). I make use of the dark version of
+the colorscheme, and I've loaded their sample presets into my terminal emulator
+of choice (iTerm2), so everything's nice and pretty whether I'm running in
+MacVim or out of the terminal.
 
 ### Space.vim ###
 

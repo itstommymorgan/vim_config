@@ -4,7 +4,10 @@
 
 " only execute the contents of this file if the GUI is in use.
 if has("gui_running")
-   set transp=8
+   " If you're using MacVim, you'll want to use the experimental renderer for
+   " this
+   " Set to 5, because the solarized colorscheme uses blue instead of black
+   set transp=5
   
    "" gui options
    " a - Autoselect

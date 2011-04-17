@@ -46,12 +46,6 @@
 [submodule "home/.vim/bundle/bufonly"]
 	path = home/.vim/bundle/bufonly
 	url = http://github.com/duff/vim-bufonly.git
-[submodule "home/.vim/bundle/autoclose"]
-	path = home/.vim/bundle/autoclose
-	url = http://github.com/Townk/vim-autoclose.git
-[submodule "home/.vim/bundle/align"]
-	path = home/.vim/bundle/align
-	url = http://github.com/vim-scripts/Align.vim.git
 [submodule "home/.vim/bundle/ack"]
 	path = home/.vim/bundle/ack
 	url = http://github.com/mileszs/ack.vim.git
@@ -88,3 +82,12 @@
 [submodule "home/.vim/bundle/vim-textobj-rubyblock"]
 	path = home/.vim/bundle/vim-textobj-rubyblock
 	url = git://github.com/nelstrom/vim-textobj-rubyblock.git
+[submodule "home/.vim/bundle/vim-ruby-complexity"]
+	path = home/.vim/bundle/vim-ruby-complexity
+	url = git://github.com/skammer/vim-ruby-complexity.git
+[submodule "home/.vim/bundle/vim-colors-solarized"]
+	path = home/.vim/bundle/vim-colors-solarized
+	url = https://github.com/altercation/vim-colors-solarized
+[submodule "home/.vim/bundle/autoclose"]
+	path = home/.vim/bundle/autoclose
+	url = https://github.com/Townk/vim-autoclose.git

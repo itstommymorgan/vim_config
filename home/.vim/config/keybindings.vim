@@ -4,13 +4,6 @@
 "" settings, just 'global' ones.
 """"""""""""""""""""""""""""""""""""""""
 
-" fix arrow keys in console mode
-if has('gui_running')
-   " no need to mess with term
-else
-   set term=ansi
-endif
-
 " Edit another file in the same directory as the current file
 " uses expression to extract path from current file's path
 map <Leader>e :e <C-R>=expand("%:p:h") . '/'<CR>
@@ -50,3 +43,6 @@ noremap ' `
 noremap ` '
 
 nnoremap ;; :
+
+" use <Leader>C to display hidden chars
+map <Leader>C :set list!<CR>
