@@ -41,8 +41,9 @@ try it out yourself. That's cool. Here's how:
 5. Done.
 6. ...unless you want to use command-T, which requires that you build some
    stuff first.
-7. `cd ~/.vim/bundle/commandT/ruby/command-t && ruby extconf.rb && make`
+7. `cd ~/.vim/bundle/commandT/ruby/command-t && /usr/bin/ruby extconf.rb && make`
    takes care of that, though.
+
 ## FEATURES ##
 
 Currently, this vim configuration ships with the following plugins:
