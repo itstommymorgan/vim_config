@@ -124,6 +124,8 @@ needs to be removed.
 * Control-k and Control-j are mapped to move lines up/down.
 * In a similar fashion, I've created bindings for `:w!` and `:q!` : `<Leader>w`
   and `<Leader>q`.
+* You can toggle spellchecking with `<Leader>zs`. It's nice when you're writing
+  prose, but annoying when you're coding.
 * Every once in a while I open a file that I don't have write access to (a file
   that Root owns, for example), make some changes, and go to save only to find
   out that I don't have the appropriate permissions. Thanks to

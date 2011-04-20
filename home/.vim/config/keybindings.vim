@@ -4,6 +4,15 @@
 "" settings, just 'global' ones.
 """"""""""""""""""""""""""""""""""""""""
 
+" This function provides a generic way to toggle settings.
+" See the keybinding for <Leader>zs for an example.
+function MapToggle(key, opt)
+  let cmd = ':set '.a:opt.'! \| set '.a:opt."?\<CR>"
+  exec 'nnoremap '.a:key.' '.cmd
+  exec 'inoremap '.a:key." \<C-O>".cmd
+endfunction
+command -nargs=+ MapToggle call MapToggle(<f-args>)
+
 " ;w saves a buffer
 map <Leader>w :w!<CR>
 
@@ -27,6 +36,8 @@ map <Leader>p :bprevious<CR>
 
 " close all buffers but this one
 map <Leader>bo :BufOnly<CR>
+
+MapToggle <Leader>zs spell
 
 " switch ' and `, because:
 " ' jumps to the start of the line where a mark is
