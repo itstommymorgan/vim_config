@@ -7,3 +7,6 @@
 .DS_Store
 home/.vim/yankring_history_v2.txt
 home/.vim/config/private/*
+home/.vim/.netrwhist
+home/.vim/.VimballRecord
+home/.vim/spell
