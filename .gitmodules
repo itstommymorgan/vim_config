@@ -91,6 +91,3 @@
 [submodule "home/.vim/bundle/command-T"]
 	path = home/.vim/bundle/command-T
 	url = http://github.com/wincent/Command-T.git
-[submodule "home/.vim/bundle/taglist.vim"]
-	path = home/.vim/bundle/taglist.vim
-	url = https://github.com/vim-scripts/taglist.vim.git
