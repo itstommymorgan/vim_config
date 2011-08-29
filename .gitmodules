@@ -1,0 +1,9 @@
+[submodule "home/.vim/bundle/command-t"]
+	path = home/.vim/bundle/command-t
+	url = git://git.wincent.com/command-t.git
+[submodule "home/.vim/bundle/vim-colors-solarized"]
+	path = home/.vim/bundle/vim-colors-solarized
+	url = git://github.com/altercation/vim-colors-solarized.git
+[submodule "home/.vim/bundle/nerdtree"]
+	path = home/.vim/bundle/nerdtree
+	url = git://github.com/scrooloose/nerdtree.git

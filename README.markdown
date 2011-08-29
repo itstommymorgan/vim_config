@@ -35,7 +35,10 @@ try it out yourself. That's cool. Here's how:
 
 ## FEATURES ##
 
-TBD
+#### Sensible Keybinding Defaults ####
+* There's a cheatsheet file in the .vim folder that lists all the details.
+* In several cases, there are two bindings for a single letter (e.g. <Leader>w and <Leader>W) - shift-bindings (capital letters) are reserved for "more dangerous" versions of the normal (lowercase letters) bindings.
+* <Leader>x is reserved for an "extension" set of commands, similar to C-x in Emacs. (If you're not familiar with Emacs, all you need to know is that <Leader>x is never a keybinding *by itself*, it's used to give us more options for keybindings.)
 
 ## STRUCTURE ##
 

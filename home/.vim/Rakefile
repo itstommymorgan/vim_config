@@ -1,0 +1,13 @@
+namespace :install do
+   desc "Run the commands necessary to configure command-T to work."
+   task :command_t do
+      system(%Q{cd bundle/command-t && rake make})
+   end
+end
+
+namespace :pathogen do
+   desc "Re-build the helptags for all pathogen-installed plugins."
+   task :helptags do
+      system(%Q{vim -c "call pathogen#helptags()" -c "qa"})
+   end
+end

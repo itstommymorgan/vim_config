@@ -1,0 +1,18 @@
+General
+=======
+; - The Leader key. Used in any binding where "<Leader>" is present.
+    e.g. in Command-T below, where <Leader>t is listed, that is (by default)
+    a mapping for ";t". The Leader key can be changed in 
+    config/general_keys.vim.
+
+<Leader>q - quit the current window.
+<Leader>Q - quit all windows (exit this vim session)
+
+<Leader>w - write the current buffer (save).
+<Leader>W - write the current buffer and quit the current window.
+
+Command-T
+=========
+<Leader>t  - Display Command-T window.
+<Leader>b  - Display Command-T buffer window.
+<Leader>xt - Clear Command-T cache. 
