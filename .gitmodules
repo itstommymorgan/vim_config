@@ -7,3 +7,18 @@
 [submodule "home/.vim/bundle/nerdtree"]
 	path = home/.vim/bundle/nerdtree
 	url = git://github.com/scrooloose/nerdtree.git
+[submodule "home/.vim/bundle/ack"]
+	path = home/.vim/bundle/ack
+	url = git://github.com/mileszs/ack.vim.git
+[submodule "home/.vim/bundle/fugitive"]
+	path = home/.vim/bundle/fugitive
+	url = git://github.com/tpope/vim-fugitive.git
+[submodule "home/.vim/bundle/endwise"]
+	path = home/.vim/bundle/endwise
+	url = git://github.com/tpope/vim-endwise.git
+[submodule "home/.vim/bundle/repeat"]
+	path = home/.vim/bundle/repeat
+	url = git://github.com/tpope/vim-repeat.git
+[submodule "home/.vim/bundle/autoclose"]
+	path = home/.vim/bundle/autoclose
+	url = git://github.com/Townk/vim-autoclose.git
