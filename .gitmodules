@@ -31,3 +31,9 @@
 [submodule "home/.vim/bundle/cucumber"]
 	path = home/.vim/bundle/cucumber
 	url = git://github.com/tpope/vim-cucumber.git
+[submodule "home/.vim/bundle/haml"]
+	path = home/.vim/bundle/haml
+	url = git://github.com/tpope/vim-haml.git
+[submodule "home/.vim/bundle/rvm"]
+	path = home/.vim/bundle/rvm
+	url = git://github.com/tpope/vim-rvm.git
