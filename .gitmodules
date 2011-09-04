@@ -19,3 +19,15 @@
 [submodule "home/.vim/bundle/repeat"]
 	path = home/.vim/bundle/repeat
 	url = git://github.com/tpope/vim-repeat.git
+[submodule "home/.vim/bundle/rails"]
+	path = home/.vim/bundle/rails
+	url = git://github.com/tpope/vim-rails.git
+[submodule "home/.vim/bundle/surround"]
+	path = home/.vim/bundle/surround
+	url = git://github.com/tpope/vim-surround.git
+[submodule "home/.vim/bundle/tcomment"]
+	path = home/.vim/bundle/tcomment
+	url = git://github.com/tomtom/tcomment_vim.git
+[submodule "home/.vim/bundle/cucumber"]
+	path = home/.vim/bundle/cucumber
+	url = git://github.com/tpope/vim-cucumber.git
