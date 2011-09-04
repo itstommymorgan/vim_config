@@ -19,6 +19,3 @@
 [submodule "home/.vim/bundle/repeat"]
 	path = home/.vim/bundle/repeat
 	url = git://github.com/tpope/vim-repeat.git
-[submodule "home/.vim/bundle/autoclose"]
-	path = home/.vim/bundle/autoclose
-	url = git://github.com/Townk/vim-autoclose.git
