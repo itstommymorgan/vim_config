@@ -5,7 +5,10 @@
 This is a vim configuration created by [duwanis](http://www.duwanis.com
 "Duwanis.com").
 
-This is actually the second rendition of this config. It's currently a work in progress. You *really* should not be using this branch until it's merged into master, unless you enjoy stumbling along with me as a I remake my config. :)
+This is actually the second rendition of this config. 
+It's still a bit of a work-in-progress, and the documentation is lackluster. If
+you're looking for the fully-documented original version, check out the v1.0
+tag.
 
 ## NEWBIE-FRIENDLY ##
 
