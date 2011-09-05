@@ -32,16 +32,14 @@ try it out yourself. That's cool. Here's how:
 3. Install your copy of the vim\_config repository using homesick:
    `homesick clone your_github_username/vim_config` (assuming you
    cloned it on github)
-4. Symlink it using homesick: `homesick symlink
-   your_github_username/vim_config`
-5. Done.
+4. Symlink it using homesick: `homesick symlink your_github_username/vim_config`
+5. If you want to make use of the Command-T plugin, run `rake install:command_t`
+   from inside your ~/.vim folder.
+6. Done.
 
 ## FEATURES ##
 
-#### Sensible Keybinding Defaults ####
-* There's a cheatsheet file in the .vim folder that lists all the details.
-* In several cases, there are two bindings for a single letter (e.g. <Leader>w and <Leader>W) - shift-bindings (capital letters) are reserved for "more dangerous" versions of the normal (lowercase letters) bindings.
-* <Leader>x is reserved for an "extension" set of commands, similar to C-x in Emacs. (If you're not familiar with Emacs, all you need to know is that <Leader>x is never a keybinding *by itself*, it's used to give us more options for keybindings.)
+TBD
 
 ## STRUCTURE ##
 
@@ -52,8 +50,6 @@ config but don't like a few of the plugins, you can very easily identify what
 needs to be removed.
 
 * bundle - this is the special folder pathogen uses to store plugins.
-* external - any submodules that aren't kept in bundle will go here. As of right
-  now, pathogen is the only thing here.
 * config - this is where all the custom config files are kept. If you look in
   the vimrc file, you'll see where everything in this folder is loaded
   recursively (even subfolders, if you're obsessive about organizing your config
