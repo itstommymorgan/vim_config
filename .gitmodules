@@ -37,3 +37,6 @@
 [submodule "home/.vim/bundle/rvm"]
 	path = home/.vim/bundle/rvm
 	url = git://github.com/tpope/vim-rvm.git
+[submodule "home/.vim/bundle/gist"]
+	path = home/.vim/bundle/gist
+	url = git://github.com/mattn/gist-vim.git
