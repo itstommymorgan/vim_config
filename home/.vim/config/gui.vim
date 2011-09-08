@@ -11,4 +11,7 @@ if has("gui_running")
    " 
    " more interesting, what is absent: no menu, no toolbar, no scrollbars.
    set guioptions=ac
+
+   " Font settings. Change as you will.
+   set guifont=Monaco:h14
 endif
