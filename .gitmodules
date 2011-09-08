@@ -40,3 +40,6 @@
 [submodule "home/.vim/bundle/gist"]
 	path = home/.vim/bundle/gist
 	url = git://github.com/mattn/gist-vim.git
+[submodule "home/.vim/bundle/autoclose"]
+	path = home/.vim/bundle/autoclose
+	url = git://github.com/Townk/vim-autoclose.git
