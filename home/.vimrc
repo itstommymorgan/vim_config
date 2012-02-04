@@ -1,5 +1,5 @@
 " Use ; for <Leader>. (<Leader> is used to start most non-basic keybindings
-" in this configuration; I prefer to use ; for <Leader> since it's right on 
+" in this configuration; I prefer to use ; for <Leader> since it's right on
 " the home row, but change it as you prefer and all the keybindings will be
 " updated appropriately.
 let mapleader = ";"
@@ -25,13 +25,17 @@ Bundle 'tpope/vim-endwise'
 Bundle 'tpope/vim-fugitive'
 Bundle 'mattn/gist-vim'
 Bundle 'tpope/vim-haml'
+Bundle 'nathanaelkane/vim-indent-guides'
 Bundle 'scrooloose/nerdtree'
 Bundle 'tpope/vim-rails'
 Bundle 'tpope/vim-repeat'
 Bundle 'tpope/vim-rvm'
+Bundle 'millermedeiros/vim-statline'
 Bundle 'tpope/vim-surround'
+Bundle 'scrooloose/syntastic'
 Bundle 'tomtom/tcomment_vim'
 Bundle 'altercation/vim-colors-solarized'
+Bundle 'Lokaltog/vim-powerline'
 
 """ Custom Configs include.
 " All custom config settings are stored in the .vim/config folder to
