@@ -13,5 +13,5 @@ if has("gui_running")
    set guioptions=ac
 
    " Font settings. Change as you will.
-   set guifont=Menlo\ For\ Powerline:h13
+   set guifont=Menlo:h14
 endif

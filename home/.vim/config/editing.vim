@@ -13,9 +13,9 @@ set listchars=tab:▸\ ,eol:¬,trail:☠
 
 " Use spaces instead of tabs, and
 " prefer 3 spaces.
-set softtabstop=3
-set tabstop=3
-set shiftwidth=3
+set softtabstop=2
+set tabstop=2
+set shiftwidth=2
 set expandtab
 
 " Automatically reload a file if it's changed outside of vim (or in another
@@ -51,3 +51,6 @@ autocmd BufReadPost *
    \ if line("'\"") > 1 && line("'\"") <= line("$") |
    \ exe "normal! g`\"" |
    \ endif
+
+" % to bounce from do to end etc.
+runtime! macros/matchit.vim

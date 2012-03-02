@@ -16,6 +16,6 @@ fun LoadRubyKeybindings()
    nmap <buffer> <C-k> lbi:<Esc>E
 
    " set the foldmethod to 'syntax'
-   setlocal foldmethod=syntax
-   setlocal foldlevel=2
+   " setlocal foldmethod=syntax
+   " setlocal foldlevel=2
 endfun

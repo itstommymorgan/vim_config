@@ -1,16 +1,6 @@
 """ Configuration
 """""""""""""""""
 
-" Override the 2-space tabs forced by rails.vim.
-" If you change any one thing, this will probably be it. Yes, I know, it's
-" not the standard rails definition, but most of the developers I work with
-" aren't rails devs, and have their own standards that it's best I adhere to.
-autocmd User Rails set sw=3
-autocmd User Rails set sts=3
-
-""" Keybindings
-"""""""""""""""
-
 " Use <Leader>r as the starting point for all rails-related
 " keybindings.
 

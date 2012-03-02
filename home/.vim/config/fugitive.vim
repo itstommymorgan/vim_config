@@ -14,11 +14,8 @@ map <Leader>gd :Gdiff<CR>
 " Run git blame
 map <Leader>gb :Gblame<CR>
 
-" git-svn bindings
-"" Use <Leader>gn as the starting point for each of the git-svn keybindings.
+" Git push
+map <Leader>gp :Gpush<CR>
 
-" Run git svn dcommit
-map <Leader>gnc :Git svn dcommit<CR>
-
-" Run git svn rebase
-map <Leader>gnr :Git svn rebase<CR>
+" Git pull
+map <Leader>gl :Gpull<CR>
