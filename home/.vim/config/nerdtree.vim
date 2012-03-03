@@ -25,6 +25,50 @@ map <Leader>d :NERDTreeToggle<CR>
 """"""""""""""""""""
 "" Borrowed liberally from the Janus configs.
 
+" NERDTree utility function
+function s:UpdateNERDTree(...)
+  let stay = 0
+
+  if(exists("a:1"))
+    let stay = a:1
+  end
+
+  if exists("t:NERDTreeBufName")
+    let nr = bufwinnr(t:NERDTreeBufName)
+    if nr != -1
+      exe nr . "wincmd w"
+      exe substitute(mapcheck("R"), "<CR>", "", "")
+      if !stay
+        wincmd p
+      end
+    endif
+  endif
+
+  if exists(":ClearCtrlPCache") == 2
+    ClearCtrlPCache
+  endif
+endfunction
+
+" Utility functions to create file commands
+function s:CommandCabbr(abbreviation, expansion)
+  execute 'cabbrev ' . a:abbreviation . ' <c-r>=getcmdpos() == 1 && getcmdtype() == ":" ? "' . a:expansion . '" : "' . a:abbreviation . '"<CR>'
+endfunction
+
+function s:FileCommand(name, ...)
+  if exists("a:1")
+    let funcname = a:1
+  else
+    let funcname = a:name
+  endif
+
+  execute 'command -nargs=1 -complete=file ' . a:name . ' :call ' . funcname . '(<f-args>)'
+endfunction
+
+function s:DefineCommand(name, destination)
+  call s:FileCommand(a:destination)
+  call s:CommandCabbr(a:name, a:destination)
+endfunction
+
 " Public NERDTree-aware versions of builtin functions
 function ChangeDirectory(dir, ...)
   execute "cd " . fnameescape(a:dir)
@@ -79,35 +123,9 @@ RUBY
 endfunction
 
 " Define the NERDTree-aware aliases
-if exists("loaded_nerd_tree")
-  call s:DefineCommand("cd", "ChangeDirectory")
-  call s:DefineCommand("touch", "Touch")
-  call s:DefineCommand("rm", "Remove")
-  call s:DefineCommand("e", "Edit")
-  call s:DefineCommand("mkdir", "Mkdir")
-  cabbrev Edit! e!
-endif
-
-" NERDTree utility function
-function s:UpdateNERDTree(...)
-  let stay = 0
-
-  if(exists("a:1"))
-    let stay = a:1
-  end
-
-  if exists("t:NERDTreeBufName")
-    let nr = bufwinnr(t:NERDTreeBufName)
-    if nr != -1
-      exe nr . "wincmd w"
-      exe substitute(mapcheck("R"), "<CR>", "", "")
-      if !stay
-        wincmd p
-      end
-    endif
-  endif
-
-  if exists(":ClearCtrlPCache") == 2
-    ClearCtrlPCache
-  endif
-endfunction
+call s:DefineCommand("cd", "ChangeDirectory")
+call s:DefineCommand("touch", "Touch")
+call s:DefineCommand("rm", "Remove")
+call s:DefineCommand("e", "Edit")
+call s:DefineCommand("mkdir", "Mkdir")
+cabbrev Edit! e!
