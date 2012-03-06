@@ -130,7 +130,7 @@ keybindings set up by default:
 - `;gd`: shows the git diff
 - `;gb`: shows the git blame for the current buffer
 - `;gp`: runs git push
-- `;gl`: runs git pull
+- `;gu`: runs git pull
 
 ### Gist ###
 

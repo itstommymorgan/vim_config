@@ -15,7 +15,7 @@ map <Leader>gd :Gdiff<CR>
 map <Leader>gb :Gblame<CR>
 
 " Git push
-map <Leader>gp :Gpush<CR>
+map <Leader>gp :Git push<CR>
 
 " Git pull
-map <Leader>gl :Gpull<CR>
+map <Leader>gu :Git pull<CR>
