@@ -11,6 +11,10 @@ available in MacVim. But even if you're not a ruby dev and you don't work in
 OS X, there might be some useful or otherwise interesting ideas in this
 config.
 
+The master branch is considered 'stable' - I play around with stuff I'm not sure
+I like in the 'experimental' branch, so be sure to look there too if you're just
+trawling for config ideas.
+
 ## NEWBIE-FRIENDLY ##
 
 This config is written to be newbie-friendly - basically, when I introduce
