@@ -38,3 +38,33 @@ map <Leader>l <C-W>l
 """ it will always be the top-left most window when it's toggled.
 """ So in practice, this binds <TAB> to navigate to the NERDTree window.
 map <TAB> 1<C-W><C-W>
+
+" Switch back to the last buffer you were looking at.
+map <Leader>b <C-^>
+
+""" Other
+"""""""""
+
+" Make Y behave like D, A, I, etc.
+map Y y$
+
+" Make Q repeat the last recorded macro
+map Q @@
+
+" Make H/L work for jumping to the start/end of lines
+noremap H ^
+noremap L $
+
+" ;i will toggle display of hidden characters
+noremap <Leader>i :set list!<CR>
+
+" Hit escape twice to clear search results.
+noremap <silent><Esc><Esc> :nohls<CR>
+
+" Keep search results in the center of the screen.
+nnoremap <silent> n nzz
+nnoremap <silent> N Nzz
+nnoremap <silent> * *zz
+nnoremap <silent> # #zz
+nnoremap <silent> g* g*zz
+nnoremap <silent> g# g#zz
