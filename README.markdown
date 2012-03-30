@@ -72,6 +72,11 @@ Some of the general changes to default Vim functionality:
 3. Files remember where your cursor was when you last had them open.
 4. Temp files are saved in a central location rather than colocated with your
    files.
+5. Display features:
+   - a subtly colored line is displayed at the 80-character mark, to encourage
+     you to write code in short, readable lines.
+   - trailing whitespace is highlighted red in normal mode. Most of the time
+     it's not harmful, but when it matters it's a huge pain to find it.
 
 ## STRUCTURE ##
 
