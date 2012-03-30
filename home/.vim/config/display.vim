@@ -7,6 +7,9 @@ set colorcolumn=80 " put a marker at the 80 column mark
                    " but it's a good rule of thumb
 
 set laststatus=2   " always display a status line
+set rnu            " always display line numbers
+                   " starts in relative mode, see below for the toggles
+
 set ruler          " display coordinates in status bar
 set showcmd        " display unfinished commands
 set showmatch      " show matching bracket (briefly jump)
