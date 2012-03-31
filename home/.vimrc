@@ -17,7 +17,7 @@ call vundle#rc()
 Bundle 'gmarik/vundle'
 " 5) Include all of the bundles that we want to make use of.
 " All of these references are to github repositories unless otherwise noted.
-Bundle 'vim-scripts/ack.vim'
+Bundle 'mileszs/ack.vim'
 Bundle 'Townk/vim-autoclose'
 Bundle 'kien/ctrlp.vim'
 Bundle 'tpope/vim-endwise'
