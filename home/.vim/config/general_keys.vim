@@ -31,10 +31,35 @@ map <Leader>j <C-W>j
 map <Leader>k <C-W>k
 map <Leader>l <C-W>l
 
-" Use <TAB> to navigate to the top-left most window.
-" See :help C-W_C-W for info on why this mapping does what it does.
-""" Why is this useful?
-""" Because if you're using NERDTree the way I have it configured,
-""" it will always be the top-left most window when it's toggled.
-""" So in practice, this binds <TAB> to navigate to the NERDTree window.
-map <TAB> 1<C-W><C-W>
+" Switch back to the last buffer you were looking at.
+map <Leader>b <C-^>
+
+""" Other
+"""""""""
+
+" Make Y behave like D, A, I, etc.
+map Y y$
+
+" Make Q repeat the last recorded macro
+map Q @@
+
+" Make H/J/K/L work like super versions of h/j/k/l - J/K go to start/end of
+" buffer, and H/L go to start/end of line.
+noremap H ^
+noremap J gg
+noremap K G
+noremap L $
+
+" ;i will toggle display of hidden characters
+noremap <Leader>i :set list!<CR>
+
+" Hit escape twice to clear highlights.
+noremap <silent><Esc><Esc> :nohls<CR>
+
+" Keep search results in the center of the screen.
+nnoremap <silent> n nzz
+nnoremap <silent> N Nzz
+nnoremap <silent> * *zz
+nnoremap <silent> # #zz
+nnoremap <silent> g* g*zz
+nnoremap <silent> g# g#zz

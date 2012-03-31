@@ -61,11 +61,26 @@ Some of the general changes to default Vim functionality:
      <C-W>.
    - `;;`: opens a vim command prompt (equivalent to `:`). For when you're too
      lazy to hit shift.
-   - `;rt`: create/refresh your tags file (hopefully in the future you won't
-     have to use this - I'd like to set this up on an autocommand).
+   - Buffer navigation - `;b` switches to the last buffer you had open in the
+     current window (useful for toggling back and forth between two files), and
+     `;B` opens the Ctrl-P buffer window.
+   - Tag navigation - `;t` either jumps to the definition of the current word or
+     displays a list for you to choose from if it's ambiguous. `;T` pops you
+     back up the tag stack (it returns you to where you were before you last
+     navigated to a tag definition). `;s` will *always* show you the list, even
+     if there's only one match - this is useful for checking the signature of a
+     method without leaving the file. `;rt` creates/refreshes your tags file 
+     (hopefully in the future you won't have to use this - I'd like to set this
+     up on an autocommand) - you will need to have exuberant ctags installed in
+     order to take advantage of this.
 3. Files remember where your cursor was when you last had them open.
 4. Temp files are saved in a central location rather than colocated with your
    files.
+5. Display features:
+   - a subtly colored line is displayed at the 80-character mark, to encourage
+     you to write code in short, readable lines.
+   - trailing whitespace is highlighted red in normal mode. Most of the time
+     it's not harmful, but when it matters it's a huge pain to find it.
 
 ## STRUCTURE ##
 
@@ -109,10 +124,9 @@ Run `:help AutoClose.txt` if you want more information about this plugin.
 ### Ctrl-P ###
 
 Ctrl-P is a plugin that does fuzzy file-finding for you. It does this in a few
-modes, the ones I use most are the standard file finder (bound to `;t`) and the
-MRU finder (most recently used - it searches through files you've opened
-recently, which is bound to `;b`). Run `:help ctrlp` to read more about this
-plugin.
+modes, the ones I use almost exclusively is the standard file finder (bound to
+`;f`), although it also provides a mode for navigating MRU (most recently used)
+files. `:help ctrlp` should give you more information.
 
 ### Endwise ###
 
