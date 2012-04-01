@@ -34,6 +34,8 @@ Bundle 'ervandew/supertab'
 Bundle 'tpope/vim-surround'
 Bundle 'scrooloose/syntastic'
 Bundle 'duwanis/tomdoc.vim'
+Bundle 'skalnik/vim-vroom'
+Bundle 'vim-scripts/ZoomWin'
 
 """ Custom Configs include.
 " All custom config settings are stored in the .vim/config folder to
