@@ -38,6 +38,7 @@ Bundle 'tpope/vim-surround'
 Bundle 'scrooloose/syntastic'
 Bundle 'duwanis/tomdoc.vim'
 Bundle 'skalnik/vim-vroom'
+Bundle 'YankRing.vim'
 Bundle 'vim-scripts/ZoomWin'
 
 """ Custom Configs include.
