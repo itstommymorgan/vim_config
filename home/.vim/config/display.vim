@@ -19,11 +19,3 @@ set title          " show file in titlebar
 " absolute line numbers in insert mode, relative otherwise for easy movement
 au InsertEnter * :set nu
 au InsertLeave * :set rnu
-
-" Highlight trailing whitespace in vim on non empty lines, but not while
-" typing in insert mode!
-highlight ExtraWhitespace ctermbg=red guibg=Brown
-au ColorScheme * highlight ExtraWhitespace guibg=red
-au BufEnter * match ExtraWhitespace /\S\zs\s\+$/
-au InsertEnter * match ExtraWhitespace /\S\zs\s\+\%#\@<!$/
-au InsertLeave * match ExtraWhiteSpace /\S\zs\s\+$/
