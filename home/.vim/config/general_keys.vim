@@ -43,11 +43,11 @@ map Y y$
 " Make Q repeat the last recorded macro
 map Q @@
 
-" Make H/J/K/L work like super versions of h/j/k/l - J/K go to end/start of
-" buffer, and H/L go to start/end of line.
+" Make H/J/K/L work like super versions of h/j/k/l - J/K page down/up,
+" and H/L go to start/end of line.
 noremap H ^
-noremap J G
-noremap K gg
+noremap J <C-f>
+noremap K <C-b>
 noremap L $
 
 " ;i will toggle display of hidden characters
