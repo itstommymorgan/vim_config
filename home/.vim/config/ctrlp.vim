@@ -8,5 +8,3 @@ let g:ctrlp_use_caching = 0 " don't do any caching - I don't have any huge direc
 " Wish there was a better fix for this, may investigate later.
 " set wildignore+=*/.git/*,*/.svn/*
 
-" Use <Leader>B to open the buffer window if we want to
-map <Leader>B :CtrlPBuffer<CR>
