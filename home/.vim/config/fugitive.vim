@@ -18,4 +18,4 @@ map <Leader>gb :Gblame<CR>
 map <Leader>gp :Git push<CR>
 
 " Git pull
-map <Leader>gu :Git pull<CR>
+map <Leader>gu :Git pull --rebase<CR>
