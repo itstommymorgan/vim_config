@@ -22,8 +22,9 @@ Bundle 'kchmck/vim-coffee-script'
 Bundle 'kien/ctrlp.vim'
 Bundle 'tpope/vim-endwise'
 Bundle 'tpope/vim-fugitive'
-Bundle 'Lokaltog/vim-powerline'
+Bundle 'scrooloose/nerdtree'
 Bundle 'gregsexton/gitv'
+Bundle 'Lokaltog/vim-powerline'
 
 """ Custom Configs include.
 " All custom config settings are stored in the .vim/config folder to
