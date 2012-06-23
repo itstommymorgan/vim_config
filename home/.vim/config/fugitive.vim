@@ -19,3 +19,8 @@ map <Leader>gp :Git push<CR>
 
 " Git pull
 map <Leader>gu :Git pull --rebase<CR>
+
+" Gitv
+map <Leader>gv :Gitv!<CR> " file mode, probably what I'll use most 
+map <Leader>gV :Gitv<CR>  " browser mode, opens in a new tab (bleh)
+
