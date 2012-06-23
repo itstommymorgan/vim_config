@@ -17,7 +17,6 @@ call vundle#rc()
 Bundle 'gmarik/vundle'
 " 5) Include all of the bundles that we want to make use of.
 " All of these references are to github repositories unless otherwise noted.
-Bundle 'tpope/vim-vividchalk'
 
 """ Custom Configs include.
 " All custom config settings are stored in the .vim/config folder to
