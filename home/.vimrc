@@ -19,6 +19,8 @@ Bundle 'gmarik/vundle'
 " All of these references are to github repositories unless otherwise noted.
 Bundle 'mileszs/ack.vim'
 Bundle 'kien/ctrlp.vim'
+Bundle 'tpope/vim-endwise'
+Bundle 'tpope/vim-fugitive'
 Bundle 'Lokaltog/vim-powerline'
 
 """ Custom Configs include.
