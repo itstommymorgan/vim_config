@@ -7,7 +7,7 @@ autocmd FileType eruby call LoadRubyKeybindings()
 autocmd FileType haml call LoadRubyKeybindings()
 autocmd FileType yaml call LoadRubyKeybindings()
 
-fun LoadRubyKeybindings()
+fun! LoadRubyKeybindings()
    " bind control-l to hashrocket
    imap <buffer> <C-l> <Space>=><Space>
 

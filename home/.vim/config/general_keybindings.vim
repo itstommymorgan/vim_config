@@ -37,6 +37,9 @@ map <Leader>b <C-^>
 """ Other
 """""""""
 
+" Use <Leader>v to reload the vim config.
+map <Leader>v :so ~/.vimrc<CR>
+
 " Make Y behave like D, A, I, etc.
 map Y y$
 
