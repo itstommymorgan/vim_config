@@ -29,3 +29,6 @@ set noerrorbells
 " Filetype settings and syntax should be enabled.
 filetype plugin indent on
 syntax on
+
+" Enable the mouse in the event it's handy
+set mouse=a
