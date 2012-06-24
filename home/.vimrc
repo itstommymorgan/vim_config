@@ -26,6 +26,11 @@ Bundle 'gregsexton/gitv'
 Bundle 'scrooloose/nerdtree'
 Bundle 'Lokaltog/vim-powerline'
 Bundle 'tpope/vim-rails'
+Bundle 'tpope/vim-rvm'
+Bundle 'kana/vim-smartinput'
+Bundle 'tpope/vim-surround'
+Bundle 'scrooloose/syntastic'
+Bundle 'duwanis/tomdoc.vim'
 
 """ Custom Configs include.
 " All custom config settings are stored in the .vim/config folder to
