@@ -18,6 +18,7 @@ Bundle 'gmarik/vundle'
 " 5) Include all of the bundles that we want to make use of.
 " All of these references are to github repositories unless otherwise noted.
 Bundle 'mileszs/ack.vim'
+Bundle 'jeetsukumaran/vim-buffergator'
 Bundle 'kchmck/vim-coffee-script'
 Bundle 'kien/ctrlp.vim'
 Bundle 'Lokaltog/vim-easymotion'
@@ -35,6 +36,7 @@ Bundle 'ervandew/supertab'
 Bundle 'tpope/vim-surround'
 Bundle 'scrooloose/syntastic'
 Bundle 'duwanis/tomdoc.vim'
+Bundle 'tpope/vim-unimpaired'
 Bundle 'YankRing.vim'
 
 """ Custom Configs include.
