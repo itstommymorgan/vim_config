@@ -8,7 +8,7 @@ let ctrlp_filter_greps = "".
     \ "jar|class|swp|swo|log|so|o|pyc|jpe?g|png|gif|mo|po" .
     \ ")$' | " .
     \ "egrep -v '^(\\./)?(" .
-    \ "deploy/|lib/|classes/|libs/|deploy/vendor/|.git/|.hg/|.svn/|.*migrations/" .
+    \ "deploy/|classes/|libs/|vendor/|deploy/vendor/|.git/|.hg/|.svn/|.*migrations/" .
     \ ")'"
  
 let my_ctrlp_git_command = "" .

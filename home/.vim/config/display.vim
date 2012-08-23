@@ -4,7 +4,7 @@ syntax enable
 " Use a dark background, because that's what cool people do, I'm told
 set background=dark
 " Use desert, because it plays nicely with my console theme.
-colorscheme desert
+colorscheme solarized
 
 "" Status bar stuff
 " Always display a status line.

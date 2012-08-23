@@ -59,6 +59,14 @@ noremap <Leader>i :set list!<CR>
 " Hit escape twice to clear highlights.
 noremap <silent><Esc><Esc> :nohls<CR>
 
+" Use <C-space> as an escape alternative
+imap <C-@> <C-[>
+vmap <C-@> <C-[>
+if has("gui")
+  imap <C-Space> <C-[>
+  vmap <C-Space> <C-[>
+endif
+
 " Keep search results in the center of the screen.
 nnoremap <silent> n nzz
 nnoremap <silent> N Nzz

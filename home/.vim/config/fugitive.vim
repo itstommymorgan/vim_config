@@ -15,12 +15,27 @@ map <Leader>gd :Gdiff<CR>
 map <Leader>gb :Gblame<CR>
 
 " Git push
-map <Leader>gp :Git push<CR>
+map <silent> <Leader>gp :call TMGitPush()<CR>
 
 " Git pull
-map <Leader>gu :Git pull --rebase<CR>
+map <silent> <Leader>gu :call TMGitPull()<CR>
 
 " Gitv
 map <Leader>gv :Gitv!<CR> " file mode, probably what I'll use most 
 map <Leader>gV :Gitv<CR>  " browser mode, opens in a new tab (bleh)
 
+function! TMGitPush()
+  if InTmux()
+    call VimuxRunCommand("git push")
+  else
+    exec ":Git push"
+  endif
+endfunction
+
+function! TMGitPull()
+  if InTmux()
+    call VimuxRunCommand("git pull --rebase")
+  else
+    exec ":Git pull --rebase"
+  endif
+endfunction
