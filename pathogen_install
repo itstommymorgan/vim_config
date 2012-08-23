@@ -1,0 +1,2 @@
+#!/usr/local/bin/zsh
+git submodule add git://github.com/$1/$2 home/.vim/bundle/$2
