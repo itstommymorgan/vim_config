@@ -103,3 +103,6 @@
 [submodule "home/.vim/bundle/YankRing.vim"]
 	path = home/.vim/bundle/YankRing.vim
 	url = git://github.com/vim-scripts/YankRing.vim
+[submodule "home/.vim/bundle/vim-bundler"]
+	path = home/.vim/bundle/vim-bundler
+	url = git://github.com/tpope/vim-bundler

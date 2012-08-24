@@ -24,6 +24,7 @@ map <silent> <Leader>gu :call TMGitPull()<CR>
 map <Leader>gv :Gitv!<CR> " file mode, probably what I'll use most 
 map <Leader>gV :Gitv<CR>  " browser mode, opens in a new tab (bleh)
 
+" Use vimux if we're in a tmux session, otherwise run it through fugitive.
 function! TMGitPush()
   if InTmux()
     call VimuxRunCommand("git push")
@@ -32,6 +33,7 @@ function! TMGitPush()
   endif
 endfunction
 
+" Use vimux if we're in a tmux session, otherwise run it through fugitive.
 function! TMGitPull()
   if InTmux()
     call VimuxRunCommand("git pull --rebase")
@@ -39,3 +41,12 @@ function! TMGitPull()
     exec ":Git pull --rebase"
   endif
 endfunction
+
+" Use spell correction and start in insert mode when we're editing commit
+" messages.
+if has('autocmd')
+  if has('spell')
+    au BufNewFile,BufRead COMMIT_EDITMSG setlocal spell
+  endif
+  au BufNewFile,BufRead COMMIT_EDITMSG call feedkeys('ggi', 't')
+endif
