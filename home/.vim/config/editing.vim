@@ -12,7 +12,7 @@ set whichwrap+=<,>,h,l
 set listchars=tab:▸\ ,eol:¬,trail:☠
 
 " Use spaces instead of tabs, and
-" prefer 3 spaces.
+" prefer 2 spaces.
 set softtabstop=2
 set tabstop=2
 set shiftwidth=2

@@ -4,36 +4,8 @@
 " updated appropriately.
 let mapleader = ";"
 
-""" Vundle settings.
-" Make use of Vundle to handle our packages with five easy steps:
-" 1) Set config settings required for Vundle to startup.
-set nocompatible
-filetype off
-" 2) Add Vundle to the runtime path.
-set rtp+=~/.vim/bundle/vundle/
-" 3) Initialize Vundle.
-call vundle#rc()
-" 4) Let Vundle manage Vundle.
-Bundle 'gmarik/vundle'
-" 5) Include all of the bundles that we want to make use of.
-" All of these references are to github repositories unless otherwise noted.
-Bundle 'mileszs/ack.vim'
-Bundle 'Townk/vim-autoclose'
-Bundle 'kien/ctrlp.vim'
-Bundle 'tpope/vim-endwise'
-Bundle 'tpope/vim-fugitive'
-Bundle 'mattn/gist-vim'
-Bundle 'nathanaelkane/vim-indent-guides'
-Bundle 'scrooloose/nerdtree'
-Bundle 'Lokaltog/vim-powerline'
-Bundle 'tpope/vim-rails'
-Bundle 'tpope/vim-repeat'
-Bundle 'tpope/vim-rvm'
-Bundle 'altercation/vim-colors-solarized'
-Bundle 'ervandew/supertab'
-Bundle 'tpope/vim-surround'
-Bundle 'scrooloose/syntastic'
-Bundle 'duwanis/tomdoc.vim'
+" load Pathogen stuff
+call pathogen#infect()
 
 """ Custom Configs include.
 " All custom config settings are stored in the .vim/config folder to

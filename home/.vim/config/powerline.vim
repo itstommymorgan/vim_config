@@ -1,1 +1,1 @@
-let g:Powerline_symbols = "compatible"
+let g:Powerline_symbols = "fancy"

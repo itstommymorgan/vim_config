@@ -1,45 +1,108 @@
+[submodule "home/.vim/bundle/ack.vim"]
+	path = home/.vim/bundle/ack.vim
+	url = git://github.com/mileszs/ack.vim
+[submodule "home/.vim/bundle/AnsiEsc.vim"]
+	path = home/.vim/bundle/AnsiEsc.vim
+	url = git://github.com/vim-scripts/AnsiEsc.vim
+[submodule "home/.vim/bundle/argtextobj.vim"]
+	path = home/.vim/bundle/argtextobj.vim
+	url = git://github.com/vim-scripts/argtextobj.vim
+[submodule "home/.vim/bundle/vim-buffergator"]
+	path = home/.vim/bundle/vim-buffergator
+	url = git://github.com/jeetsukumaran/vim-buffergator
+[submodule "home/.vim/bundle/vim-coffee-script"]
+	path = home/.vim/bundle/vim-coffee-script
+	url = git://github.com/kchmck/vim-coffee-script
 [submodule "home/.vim/bundle/vim-colors-solarized"]
 	path = home/.vim/bundle/vim-colors-solarized
-	url = git://github.com/altercation/vim-colors-solarized.git
+	url = git://github.com/altercation/vim-colors-solarized
+[submodule "home/.vim/bundle/ctrlp.vim"]
+	path = home/.vim/bundle/ctrlp.vim
+	url = git://github.com/kien/ctrlp.vim
+[submodule "home/.vim/bundle/vim-easymotion"]
+	path = home/.vim/bundle/vim-easymotion
+	url = git://github.com/Lokaltog/vim-easymotion
+[submodule "home/.vim/bundle/vim-endwise"]
+	path = home/.vim/bundle/vim-endwise
+	url = git://github.com/tpope/vim-endwise
+[submodule "home/.vim/bundle/vim-fugitive"]
+	path = home/.vim/bundle/vim-fugitive
+	url = git://github.com/tpope/vim-fugitive
+[submodule "home/.vim/bundle/gist-vim"]
+	path = home/.vim/bundle/gist-vim
+	url = git://github.com/mattn/gist-vim
+[submodule "home/.vim/bundle/gitv"]
+	path = home/.vim/bundle/gitv
+	url = git://github.com/gregsexton/gitv
+[submodule "home/.vim/bundle/gundo.vim"]
+	path = home/.vim/bundle/gundo.vim
+	url = git://github.com/sjl/gundo.vim
+[submodule "home/.vim/bundle/vim-indentobject"]
+	path = home/.vim/bundle/vim-indentobject
+	url = git://github.com/austintaylor/vim-indentobject
+[submodule "home/.vim/bundle/IndexedSearch"]
+	path = home/.vim/bundle/IndexedSearch
+	url = git://github.com/vim-scripts/IndexedSearch
 [submodule "home/.vim/bundle/nerdtree"]
 	path = home/.vim/bundle/nerdtree
-	url = git://github.com/scrooloose/nerdtree.git
-[submodule "home/.vim/bundle/ack"]
-	path = home/.vim/bundle/ack
-	url = git://github.com/mileszs/ack.vim.git
-[submodule "home/.vim/bundle/fugitive"]
-	path = home/.vim/bundle/fugitive
-	url = git://github.com/tpope/vim-fugitive.git
-[submodule "home/.vim/bundle/endwise"]
-	path = home/.vim/bundle/endwise
-	url = git://github.com/tpope/vim-endwise.git
-[submodule "home/.vim/bundle/repeat"]
-	path = home/.vim/bundle/repeat
-	url = git://github.com/tpope/vim-repeat.git
-[submodule "home/.vim/bundle/rails"]
-	path = home/.vim/bundle/rails
-	url = git://github.com/tpope/vim-rails.git
-[submodule "home/.vim/bundle/surround"]
-	path = home/.vim/bundle/surround
-	url = git://github.com/tpope/vim-surround.git
-[submodule "home/.vim/bundle/tcomment"]
-	path = home/.vim/bundle/tcomment
-	url = git://github.com/tomtom/tcomment_vim.git
-[submodule "home/.vim/bundle/cucumber"]
-	path = home/.vim/bundle/cucumber
-	url = git://github.com/tpope/vim-cucumber.git
-[submodule "home/.vim/bundle/haml"]
-	path = home/.vim/bundle/haml
-	url = git://github.com/tpope/vim-haml.git
-[submodule "home/.vim/bundle/rvm"]
-	path = home/.vim/bundle/rvm
-	url = git://github.com/tpope/vim-rvm.git
-[submodule "home/.vim/bundle/gist"]
-	path = home/.vim/bundle/gist
-	url = git://github.com/mattn/gist-vim.git
-[submodule "home/.vim/bundle/autoclose"]
-	path = home/.vim/bundle/autoclose
-	url = git://github.com/Townk/vim-autoclose.git
-[submodule "home/.vim/bundle/ctrlp"]
-	path = home/.vim/bundle/ctrlp
-	url = git://github.com/kien/ctrlp.vim.git
+	url = git://github.com/scrooloose/nerdtree
+[submodule "home/.vim/bundle/numbers.vim"]
+	path = home/.vim/bundle/numbers.vim
+	url = git://github.com/myusuf3/numbers.vim
+[submodule "home/.vim/bundle/vim-powerline"]
+	path = home/.vim/bundle/vim-powerline
+	url = git://github.com/Lokaltog/vim-powerline
+[submodule "home/.vim/bundle/vim-rails"]
+	path = home/.vim/bundle/vim-rails
+	url = git://github.com/tpope/vim-rails
+[submodule "home/.vim/bundle/vim-ruby-refactoring"]
+	path = home/.vim/bundle/vim-ruby-refactoring
+	url = git://github.com/ecomba/vim-ruby-refactoring
+[submodule "home/.vim/bundle/RubyTextObjects"]
+	path = home/.vim/bundle/RubyTextObjects
+	url = git://github.com/Raimondi/RubyTextObjects
+[submodule "home/.vim/bundle/vim-rvm"]
+	path = home/.vim/bundle/vim-rvm
+	url = git://github.com/tpope/vim-rvm
+[submodule "home/.vim/bundle/SearchComplete"]
+	path = home/.vim/bundle/SearchComplete
+	url = git://github.com/vim-scripts/SearchComplete
+[submodule "home/.vim/bundle/vim-smartinput"]
+	path = home/.vim/bundle/vim-smartinput
+	url = git://github.com/kana/vim-smartinput
+[submodule "home/.vim/bundle/splitjoin.vim"]
+	path = home/.vim/bundle/splitjoin.vim
+	url = git://github.com/AndrewRadev/splitjoin.vim
+[submodule "home/.vim/bundle/supertab"]
+	path = home/.vim/bundle/supertab
+	url = git://github.com/ervandew/supertab
+[submodule "home/.vim/bundle/vim-surround"]
+	path = home/.vim/bundle/vim-surround
+	url = git://github.com/tpope/vim-surround
+[submodule "home/.vim/bundle/syntastic"]
+	path = home/.vim/bundle/syntastic
+	url = git://github.com/scrooloose/syntastic
+[submodule "home/.vim/bundle/vim-textobj-rubysymbol"]
+	path = home/.vim/bundle/vim-textobj-rubysymbol
+	url = git://github.com/bootleq/vim-textobj-rubysymbol
+[submodule "home/.vim/bundle/textobj-user"]
+	path = home/.vim/bundle/textobj-user
+	url = git://github.com/vim-scripts/textobj-user
+[submodule "home/.vim/bundle/tomdoc.vim"]
+	path = home/.vim/bundle/tomdoc.vim
+	url = git://github.com/duwanis/tomdoc.vim
+[submodule "home/.vim/bundle/vim-unimpaired"]
+	path = home/.vim/bundle/vim-unimpaired
+	url = git://github.com/tpope/vim-unimpaired
+[submodule "home/.vim/bundle/vimux"]
+	path = home/.vim/bundle/vimux
+	url = git://github.com/benmills/vimux
+[submodule "home/.vim/bundle/webapi-vim"]
+	path = home/.vim/bundle/webapi-vim
+	url = git://github.com/mattn/webapi-vim
+[submodule "home/.vim/bundle/YankRing.vim"]
+	path = home/.vim/bundle/YankRing.vim
+	url = git://github.com/vim-scripts/YankRing.vim
+[submodule "home/.vim/bundle/vim-bundler"]
+	path = home/.vim/bundle/vim-bundler
+	url = git://github.com/tpope/vim-bundler

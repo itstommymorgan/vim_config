@@ -37,6 +37,9 @@ map <Leader>b <C-^>
 """ Other
 """""""""
 
+" Use <Leader>v to reload the vim config.
+map <Leader>v :so ~/.vimrc<CR>
+
 " Make Y behave like D, A, I, etc.
 map Y y$
 
@@ -46,8 +49,8 @@ map Q @@
 " Make H/J/K/L work like super versions of h/j/k/l - J/K go to start/end of
 " buffer, and H/L go to start/end of line.
 noremap H ^
-noremap J gg
-noremap K G
+noremap J <C-f>
+noremap K <C-b>
 noremap L $
 
 " ;i will toggle display of hidden characters
@@ -55,6 +58,14 @@ noremap <Leader>i :set list!<CR>
 
 " Hit escape twice to clear highlights.
 noremap <silent><Esc><Esc> :nohls<CR>
+
+" Use <C-space> as an escape alternative
+imap <C-@> <C-[>
+vmap <C-@> <C-[>
+if has("gui")
+  imap <C-Space> <C-[>
+  vmap <C-Space> <C-[>
+endif
 
 " Keep search results in the center of the screen.
 nnoremap <silent> n nzz
