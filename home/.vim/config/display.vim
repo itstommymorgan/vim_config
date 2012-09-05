@@ -3,8 +3,8 @@
 syntax enable
 " Use a dark background, because that's what cool people do, I'm told
 set background=dark
-" Use desert, because it plays nicely with my console theme.
-colorscheme solarized
+" Use tomorrow-night
+colorscheme tomorrow-night
 
 "" Status bar stuff
 " Always display a status line.
